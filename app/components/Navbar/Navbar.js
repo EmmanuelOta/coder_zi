@@ -4,9 +4,6 @@ import { Libre_Baskerville } from "next/font/google";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-import { useContext } from "react";
-import { contactUs } from "@/app/ContactUsContext";
-
 const libre_baskerville = Libre_Baskerville({
 	weight: "400",
 	style: "italic",
@@ -18,7 +15,6 @@ export default function Navbar() {
 
 	const [show_menu, setShowMenu] = useState(false);
 
-	const { setContactUs } = useContext(contactUs);
 
 	useEffect(() => {
 		const handleScroll = () => {
@@ -168,7 +164,6 @@ export default function Navbar() {
 				<div className="hidden lg:flex">
 					<button
 						className="inline-flex bg-gradient-to-b from-blue-400 to-blue-500 text-white p-3 rounded-xl text-sm [&>*:last-child]:hover:translate-x-1 [&>*:last-child]:ease-in-out [&>*:last-child]:duration-200"
-						onClick={() => setContactUs(true)}
 					>
 						Contact us
 						<div className="mx-1">-&gt;</div>
