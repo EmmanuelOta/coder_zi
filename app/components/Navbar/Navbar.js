@@ -1,14 +1,14 @@
 "use client";
 
-import { Libre_Baskerville } from "next/font/google";
+import { Fugaz_One } from "next/font/google";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
 import ThemeToggler from "../Theme/Themetoggler";
 
-const libre_baskerville = Libre_Baskerville({
+const fugaz_one = Fugaz_One({
 	weight: "400",
-	style: "italic",
+	style: "normal",
 	subsets: ["latin"],
 });
 
@@ -49,12 +49,12 @@ export default function Navbar() {
 			}`}
 		>
 			<div className="flex items-center justify-between p-2 lg:p-3">
-				<div
-					className={`text-2xl lg:text-3xl text-green-600 ${libre_baskerville.className}`}
-				>
-					<Link href={"#home"}>Coder_zi</Link>
+				<div className={`text-2xl lg:text-3xl ${fugaz_one.className}`}>
+					<Link href={"#home"} className="mx-4">
+						coder_zi
+					</Link>
 				</div>
-				<div className="hidden lg:flex items-center justify-center dark:text-white">
+				<div className="hidden lg:flex items-center justify-center">
 					<Link href={"#home"} className="mx-3">
 						Home
 					</Link>
@@ -73,10 +73,7 @@ export default function Navbar() {
 				</div>
 
 				{/**Harmburger svg */}
-				<div
-					className="flex lg:hidden hover:cursor-pointer"
-					onClick={() => setShowMenu(!show_menu)}
-				>
+				<div className="flex items-center justify-center mt-auto lg:hidden hover:cursor-pointer">
 					<ThemeToggler />
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +81,8 @@ export default function Navbar() {
 						viewBox="0 0 24 24"
 						strokeWidth={1.5}
 						stroke="currentColor"
-						className="size-7 text-blue-500 mx-4"
+						className="size-7 dark:text-white mx-4"
+						onClick={() => setShowMenu(!show_menu)}
 					>
 						<path
 							strokeLinecap="round"
@@ -96,9 +94,9 @@ export default function Navbar() {
 
 				{/**Mobile menu */}
 				{show_menu && (
-					<div className="absolute flex flex-col items-center justify-center w-full h-screen bg-gradient-to-b from-slate-100 via-white to-slate-200 inset-0 p-2">
+					<div className="absolute flex flex-col items-center justify-center w-full h-screen bg-gradient-to-b from-slate-100 via-white to-slate-200 dark:bg-gradient-to-b dark:from-zinc-800 dark:to-zinc-900 inset-0 p-2">
 						<div
-							className="absolute top-4 right-2 text-blue-500 hover:cursor-pointer w-max"
+							className="absolute top-4 right-2 text-white hover:cursor-pointer w-max"
 							onClick={() => setShowMenu(false)}
 						>
 							<svg
@@ -119,41 +117,41 @@ export default function Navbar() {
 						<div className="flex flex-col p-4 items-center justify-center">
 							<Link
 								href={"#home"}
-								className="mt-4 text-blue-500"
+								className="mt-4 text-white"
 								onClick={() => setShowMenu(false)}
 							>
 								Home
 							</Link>
 							<Link
 								href={"#about"}
-								className="mt-6 text-blue-500"
+								className="mt-6 text-white"
 								onClick={() => setShowMenu(false)}
 							>
 								About
 							</Link>
 							<Link
 								href={"#projects"}
-								className="mt-6 text-blue-500"
+								className="mt-6 text-white"
 								onClick={() => setShowMenu(false)}
 							>
 								Projects
 							</Link>
 							<Link
 								href={"#skills"}
-								className="mt-6 text-blue-500"
+								className="mt-6 text-white"
 								onClick={() => setShowMenu(false)}
 							>
 								Skills
 							</Link>
 							<Link
 								href={"#contact"}
-								className="mt-6 text-blue-500"
+								className="mt-6 text-white"
 								onClick={() => setShowMenu(false)}
 							>
 								Contact
 							</Link>
 							<button
-								className="mt-6 text-blue-500"
+								className="mt-6 text-white"
 								onClick={() => {
 									setShowMenu(false);
 									setContactUs(true);

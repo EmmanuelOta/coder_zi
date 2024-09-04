@@ -1,8 +1,8 @@
-import { Libre_Baskerville } from "next/font/google";
+import { Fugaz_One } from "next/font/google";
 
-const libre_baskerville = Libre_Baskerville({
+const fugaz_one = Fugaz_One({
 	weight: "400",
-	style: "italic",
+	style: "normal",
 	subsets: ["latin"],
 });
 
@@ -19,15 +19,13 @@ export default function Footer() {
 							alt="revia"
 							className="rounded-full"
 						/>
-						<p
-							className={`${libre_baskerville.className} text-2xl mx-2`}
-						>
-							Coder_zi
+						<p className={`${fugaz_one.className} text-2xl mx-2`}>
+							coder_zi
 						</p>
 					</div>
 
-					<p className="mt-4">
-						&copy; Coder_zi: The one that seeks ⚜.
+					<p className="mt-4 font-medium text-lg">
+						@coder_zi: The one that seeks ⚜.
 					</p>
 				</div>
 				<div className="flex flex-row items-center lg:justify-center mt-4 lg:mt-auto">
