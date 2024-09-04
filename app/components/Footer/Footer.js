@@ -31,7 +31,11 @@ export default function Footer() {
 					</p>
 				</div>
 				<div className="flex flex-row items-center lg:justify-center mt-4 lg:mt-auto">
-					<a href="#" target="_blank" className="mx-2">
+					<a
+						href="https://x.com/coder_zi"
+						target="_blank"
+						className="mx-2"
+					>
 						<svg
 							width="1200"
 							height="1227"
@@ -48,7 +52,7 @@ export default function Footer() {
 					</a>
 
 					<a
-						href="https://www.facebook.com/profile.php?id=100068051692698"
+						href="https://www.facebook.com/emmanuel.ota.92"
 						target="_blank"
 						className="mx-2"
 					>

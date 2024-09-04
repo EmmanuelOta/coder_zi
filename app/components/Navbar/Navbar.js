@@ -41,7 +41,7 @@ export default function Navbar() {
 
 	return (
 		<nav
-			className={`sticky top-0 bg-transparent backdrop-blur-md border-b border-b-slate-300 z-[100] ${
+			className={`sticky top-0 bg-transparent backdrop-blur-md border-b border-b-slate-300 dark:border-b dark:border-b-zinc-900 z-[100] ${
 				scrolled ? "shadow-lg shadow-slate-300 dark:shadow-lg dark:shadow-slate-800" : ""
 			}`}
 		>
@@ -51,7 +51,7 @@ export default function Navbar() {
 				>
 					<Link href={"#home"}>Coder_zi</Link>
 				</div>
-				<div className="hidden lg:flex items-center justify-center">
+				<div className="hidden lg:flex items-center justify-center dark:text-white">
 					<Link href={"#home"} className="mx-3">
 						Home
 					</Link>
