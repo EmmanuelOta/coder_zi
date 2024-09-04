@@ -44,7 +44,7 @@ export default function Navbar() {
 		<nav
 			className={`sticky top-0 bg-transparent backdrop-blur-md border-b border-b-slate-300 dark:border-b dark:border-b-zinc-600 z-[100] ${
 				scrolled
-					? "shadow-lg shadow-slate-300 dark:shadow-lg dark:shadow-zinc-600"
+					? "shadow-lg shadow-slate-300 dark:shadow-lg dark:shadow-zinc-800"
 					: ""
 			}`}
 		>
@@ -77,13 +77,14 @@ export default function Navbar() {
 					className="flex lg:hidden hover:cursor-pointer"
 					onClick={() => setShowMenu(!show_menu)}
 				>
+					<ThemeToggler />
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
 						viewBox="0 0 24 24"
 						strokeWidth={1.5}
 						stroke="currentColor"
-						className="size-7 text-blue-500"
+						className="size-7 text-blue-500 mx-4"
 					>
 						<path
 							strokeLinecap="round"

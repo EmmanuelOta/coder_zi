@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
 					defaultTheme="system"
 					enableSystem
 				>
-					<div className="min-h-screen bg-gradient-to-r from-slate-100 via-white to-slate-200 dark:bg-gradient-to-b dark:from-zinc-900 dark:to-zinc-950">
+					<div className="min-h-screen bg-gradient-to-r from-slate-100 via-white to-slate-200 dark:bg-gradient-to-r dark:from-zinc-800 dark:to-neutral-900">
 						<Navbar />
 						{children}
 					</div>
