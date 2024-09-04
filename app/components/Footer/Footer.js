@@ -8,7 +8,7 @@ const libre_baskerville = Libre_Baskerville({
 
 export default function Footer() {
 	return (
-		<nav className="flex items-center z-50 border-t border-t-zinc-300 p-4 bg-gradient-to-r from-slate-100 via-white to-slate-200 dark:bg-zinc-800 dark:text-white p-5">
+		<nav className="flex items-center z-50 border-t border-t-zinc-300 p-4 bg-gradient-to-r from-slate-100 via-white to-slate-200 dark:bg-zinc-900 dark:text-white p-5">
 			<div className="flex flex-col lg:flex-row lg:items-center justify-between w-full">
 				<div>
 					<div className="flex flex-row items-end">
@@ -42,7 +42,7 @@ export default function Footer() {
 							viewBox="0 0 1200 1227"
 							fill="none"
 							xmlns="http://www.w3.org/2000/svg"
-							class="w-[14px] h-[14px] dark:invert"
+							className="w-[14px] h-[14px] dark:invert"
 						>
 							<path
 								d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"

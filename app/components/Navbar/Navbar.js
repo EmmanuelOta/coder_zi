@@ -4,6 +4,8 @@ import { Libre_Baskerville } from "next/font/google";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
+import ThemeToggler from "../Theme/Themetoggler";
+
 const libre_baskerville = Libre_Baskerville({
 	weight: "400",
 	style: "italic",
@@ -14,7 +16,6 @@ export default function Navbar() {
 	const [scrolled, setScrolled] = useState(false);
 
 	const [show_menu, setShowMenu] = useState(false);
-
 
 	useEffect(() => {
 		const handleScroll = () => {
@@ -42,7 +43,9 @@ export default function Navbar() {
 	return (
 		<nav
 			className={`sticky top-0 bg-transparent backdrop-blur-md border-b border-b-slate-300 dark:border-b dark:border-b-zinc-600 z-[100] ${
-				scrolled ? "shadow-lg shadow-slate-300 dark:shadow-lg dark:shadow-zinc-600" : ""
+				scrolled
+					? "shadow-lg shadow-slate-300 dark:shadow-lg dark:shadow-zinc-600"
+					: ""
 			}`}
 		>
 			<div className="flex items-center justify-between p-2 lg:p-3">
@@ -162,9 +165,8 @@ export default function Navbar() {
 				)}
 
 				<div className="hidden lg:flex">
-					<button
-						className="inline-flex bg-gradient-to-b from-green-400 to-green-500 text-white p-3 rounded-xl text-sm [&>*:last-child]:hover:translate-x-1 [&>*:last-child]:ease-in-out [&>*:last-child]:duration-200"
-					>
+					<ThemeToggler />
+					<button className="inline-flex mx-4 bg-gradient-to-b from-green-400 to-green-500 text-white p-3 rounded-xl text-sm [&>*:last-child]:hover:translate-x-1 [&>*:last-child]:ease-in-out [&>*:last-child]:duration-200">
 						Contact us
 						<div className="mx-1">-&gt;</div>
 					</button>
