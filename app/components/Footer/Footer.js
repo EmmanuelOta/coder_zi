@@ -13,7 +13,7 @@ export default function Footer() {
 				<div>
 					<div className="flex flex-row items-end">
 						<img
-							src="/images/anaco-paints.png"
+							src="/images/coder_zi.png"
 							width={40}
 							height={20}
 							alt="revia"

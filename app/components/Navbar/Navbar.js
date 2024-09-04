@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const libre_baskerville = Libre_Baskerville({
-	weight: "400",
+	weight: "700",
 	style: "italic",
 	subsets: ["latin"],
 });
@@ -42,12 +42,12 @@ export default function Navbar() {
 	return (
 		<nav
 			className={`sticky top-0 bg-transparent backdrop-blur-md border-b border-b-slate-300 z-[100] ${
-				scrolled ? "shadow-lg shadow-slate-300" : ""
+				scrolled ? "shadow-lg shadow-slate-300 dark:shadow-lg dark:shadow-slate-800" : ""
 			}`}
 		>
 			<div className="flex items-center justify-between p-2 lg:p-3">
 				<div
-					className={`text-2xl lg:text-3xl text-blue-600 ${libre_baskerville.className}`}
+					className={`text-2xl lg:text-3xl text-green-600 ${libre_baskerville.className}`}
 				>
 					<Link href={"#home"}>Coder_zi</Link>
 				</div>
@@ -163,7 +163,7 @@ export default function Navbar() {
 
 				<div className="hidden lg:flex">
 					<button
-						className="inline-flex bg-gradient-to-b from-blue-400 to-blue-500 text-white p-3 rounded-xl text-sm [&>*:last-child]:hover:translate-x-1 [&>*:last-child]:ease-in-out [&>*:last-child]:duration-200"
+						className="inline-flex bg-gradient-to-b from-green-400 to-green-500 text-white p-3 rounded-xl text-sm [&>*:last-child]:hover:translate-x-1 [&>*:last-child]:ease-in-out [&>*:last-child]:duration-200"
 					>
 						Contact us
 						<div className="mx-1">-&gt;</div>
