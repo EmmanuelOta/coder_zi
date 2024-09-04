@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const libre_baskerville = Libre_Baskerville({
-	weight: "700",
+	weight: "400",
 	style: "italic",
 	subsets: ["latin"],
 });
