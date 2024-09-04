@@ -41,8 +41,8 @@ export default function Navbar() {
 
 	return (
 		<nav
-			className={`sticky top-0 bg-transparent backdrop-blur-md border-b border-b-slate-300 dark:border-b dark:border-b-zinc-900 z-[100] ${
-				scrolled ? "shadow-lg shadow-slate-300 dark:shadow-lg dark:shadow-slate-800" : ""
+			className={`sticky top-0 bg-transparent backdrop-blur-md border-b border-b-slate-300 dark:border-b dark:border-b-zinc-600 z-[100] ${
+				scrolled ? "shadow-lg shadow-slate-300 dark:shadow-lg dark:shadow-zinc-600" : ""
 			}`}
 		>
 			<div className="flex items-center justify-between p-2 lg:p-3">
