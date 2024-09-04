@@ -8,7 +8,7 @@ const libre_baskerville = Libre_Baskerville({
 
 export default function Footer() {
 	return (
-		<nav className="flex items-center z-50 border-t border-t-slate-300 p-4 bg-gradient-to-r from-slate-100 via-white to-slate-200 dark:bg-gradient-to-b dark:from-zinc-900 dark:to-slate-950 p-5">
+		<nav className="flex items-center z-50 border-t border-t-slate-300 p-4 bg-gradient-to-r from-slate-100 via-white to-slate-200 dark:bg-gradient-to-b dark:from-zinc-900 dark:to-zinc-950 p-5">
 			<div className="flex flex-col lg:flex-row lg:items-center justify-between w-full">
 				<div>
 					<div className="flex flex-row items-end">
