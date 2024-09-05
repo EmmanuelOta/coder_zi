@@ -96,7 +96,7 @@ export default function Navbar() {
 				{show_menu && (
 					<div className="absolute flex flex-col items-center justify-center w-full h-screen bg-gradient-to-b from-slate-100 via-white to-slate-200 dark:bg-gradient-to-b dark:from-zinc-800 dark:to-zinc-900 inset-0 p-2">
 						<div
-							className="absolute top-4 right-2 text-white hover:cursor-pointer w-max"
+							className="absolute top-4 right-2 dark:text-white hover:cursor-pointer w-max"
 							onClick={() => setShowMenu(false)}
 						>
 							<svg
@@ -151,7 +151,7 @@ export default function Navbar() {
 								Contact
 							</Link>
 							<button
-								className="mt-6 text-white"
+								className="mt-6 dark:text-white"
 								onClick={() => {
 									setShowMenu(false);
 									setContactUs(true);
