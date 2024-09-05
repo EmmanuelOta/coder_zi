@@ -166,7 +166,7 @@ export default function Navbar() {
 				<div className="hidden lg:flex">
 					<ThemeToggler />
 					<button className="inline-flex mx-4 bg-gradient-to-b from-green-400 to-green-500 text-white p-3 rounded-xl text-sm [&>*:last-child]:hover:translate-x-1 [&>*:last-child]:ease-in-out [&>*:last-child]:duration-200">
-						Contact us
+						Hit Me Up
 						<div className="mx-1">-&gt;</div>
 					</button>
 				</div>
