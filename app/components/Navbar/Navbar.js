@@ -117,35 +117,35 @@ export default function Navbar() {
 						<div className="flex flex-col p-4 items-center justify-center">
 							<Link
 								href={"#home"}
-								className="mt-4 text-white"
+								className="mt-4 dark:text-white"
 								onClick={() => setShowMenu(false)}
 							>
 								Home
 							</Link>
 							<Link
 								href={"#about"}
-								className="mt-6 text-white"
+								className="mt-6 dark:text-white"
 								onClick={() => setShowMenu(false)}
 							>
 								About
 							</Link>
 							<Link
 								href={"#projects"}
-								className="mt-6 text-white"
+								className="mt-6 dark:text-white"
 								onClick={() => setShowMenu(false)}
 							>
 								Projects
 							</Link>
 							<Link
 								href={"#skills"}
-								className="mt-6 text-white"
+								className="mt-6 dark:text-white"
 								onClick={() => setShowMenu(false)}
 							>
 								Skills
 							</Link>
 							<Link
 								href={"#contact"}
-								className="mt-6 text-white"
+								className="mt-6 dark:text-white"
 								onClick={() => setShowMenu(false)}
 							>
 								Contact
