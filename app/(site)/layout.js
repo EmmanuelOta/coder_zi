@@ -13,5 +13,5 @@ export default function SiteLayout({ children }) {
 			mirror: true,
 		});
 	}, []);
-	return <div>{children}</div>;
+	return <div className="overflow-hidden">{children}</div>;
 }

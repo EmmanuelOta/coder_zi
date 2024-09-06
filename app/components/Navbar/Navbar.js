@@ -33,7 +33,7 @@ export default function Navbar() {
 
 	useEffect(() => {
 		if (!show_menu) {
-			//document.body.style.overflow = "auto";
+			document.body.style.overflow = "auto";
 			return;
 		} else {
 			document.body.style.overflow = "hidden";
