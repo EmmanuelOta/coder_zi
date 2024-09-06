@@ -1,4 +1,19 @@
+import Slider from "../components/picture-slider/Slider";
+
+import wanderlust_home from "../assets/wanderlust-home.png";
+import wanderlust_city from "../assets/wanderlust-city.png";
+import wanderlust_login from "../assets/wanderlust-login.png";
+import wanderlust_favourite from "../assets/wanderlust-favourite.png";
+
 export default function Home() {
+	//slider images for wanderlust
+	const wanderlust = [
+		"wanderlust-home.png",
+		"wanderlust-city.png",
+		"wanderlust-login.png",
+		"wanderlust-favourite.png",
+	];
+
 	return (
 		<>
 			<section className="flex flex-col items-center justify-center p-5">
@@ -6,9 +21,9 @@ export default function Home() {
 					className="flex flex-row my-3 md:my-6 items-center jusify-center relative bg-slate-200 dark:bg-zinc-700 border-4 border-white dark:border dark:border-slate-200 p-3 px-4 text-green-500 dark:text-green-300 rounded-2xl"
 					data-aos="fade-left"
 				>
-					<span class="relative flex h-3 w-3 mx-2">
-						<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
-						<span class="relative inline-flex rounded-full h-3 w-3 bg-green-500 dark:bg-green-300"></span>
+					<span className="relative flex h-3 w-3 mx-2">
+						<span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+						<span className="relative inline-flex rounded-full h-3 w-3 bg-green-500 dark:bg-green-300"></span>
 					</span>
 					Open To Work
 				</div>
@@ -96,13 +111,31 @@ export default function Home() {
 				</div>
 			</section>
 
-			<section className="flex flex-col items-center justify-center p-5">
+			<section
+				className="flex flex-col items-center justify-center p-5"
+				id="projects"
+			>
 				<h3
 					className="p-1 text-3xl lg:text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white"
 					data-aos="zoom-in-down"
 				>
 					Projects I&apos;ve worked on
 				</h3>
+
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full">
+					<div className="w-full lg:w-[50%] p-4">
+						<Slider pictures={wanderlust} />
+					</div>
+					<div className="w-full lg:w-[50%] p-4">
+						<h4 className="text-2xl font-semibold text-center">
+							Wanderlust
+						</h4>
+						<p className="p-2 font-medium">
+							Wanderlust is a vacation destination, with over 200
+							vacation destinations ready for tourist to explore
+						</p>
+					</div>
+				</div>
 			</section>
 		</>
 	);

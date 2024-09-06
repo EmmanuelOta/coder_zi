@@ -66,6 +66,20 @@ export default function Footer() {
 							className="dark:invert"
 						/>
 					</a>
+
+					<a
+						href="https://instagram.com/coder_zi"
+						target="_blank"
+						className="mx-2"
+					>
+						<img
+							src="/images/instagram.svg"
+							width={20}
+							height={20}
+							alt="coder_zi instagram"
+							className="dark:invert"
+						/>
+					</a>
 				</div>
 			</div>
 		</nav>
