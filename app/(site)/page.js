@@ -17,7 +17,7 @@ export default function Home() {
 					src="/images/coder_zi.png"
 					width={180}
 					height={180}
-					className="rounded-full my-10"
+					className="rounded-full my-6 lg:my-10"
 					alt="coder_zi"
 				/>
 				<div className="w-[90%] lg:w-[60%] my-4" data-aos="fade-right">
