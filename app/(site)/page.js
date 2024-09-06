@@ -33,7 +33,7 @@ export default function Home() {
 				id="about"
 			>
 				<h3
-					className="p-3 text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white"
+					className="p-3 text-3xl lg:text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white"
 					data-aos="fade-down"
 				>
 					Who are you?
@@ -66,7 +66,7 @@ export default function Home() {
 				</div>
 
 				<h3
-					className="p-3 text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white"
+					className="p-3 text-3xl lg:text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white"
 					data-aos="fade-left"
 				>
 					What do you do professionally?
@@ -98,7 +98,7 @@ export default function Home() {
 
 			<section className="flex flex-col items-center justify-center p-5">
 				<h3
-					className="p-3 text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white"
+					className="p-3 text-3xl lg:text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white"
 					data-aos="zoom-in-down"
 				>
 					Projects I&apos;ve worked on
