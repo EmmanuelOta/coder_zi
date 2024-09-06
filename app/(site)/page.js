@@ -74,7 +74,7 @@ export default function Home() {
 
 				<div
 					className="w-[90%] lg:w-[70%] my-2 text-lg font-medium"
-					data-aos="fade-right"
+					data-aos="fade-down"
 				>
 					<p className="p-2">
 						I&apos;m an aspiring founder developing my first SaaS
