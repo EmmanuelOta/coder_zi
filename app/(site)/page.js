@@ -21,7 +21,7 @@ export default function Home() {
 					alt="coder_zi"
 				/>
 				<div className="w-[90%] lg:w-[60%] my-4" data-aos="fade-right">
-					<p className="text-3xl lg:text-4xl font-semibold text-zinc-800 text-center dark:text-slate-100">
+					<p className="text-2xl lg:text-4xl font-semibold text-zinc-800 text-center dark:text-slate-100">
 						Hello!! I&apos;m Emmanuel, a Front End Developer with a
 						constantly evolving philosophical mind ⚜.
 					</p>
@@ -33,7 +33,7 @@ export default function Home() {
 				id="about"
 			>
 				<h3
-					className="p-3 text-3xl lg:text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white"
+					className="p-3 text-2xl lg:text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white"
 					data-aos="fade-down"
 				>
 					Who are you?
@@ -66,7 +66,7 @@ export default function Home() {
 				</div>
 
 				<h3
-					className="p-3 text-3xl lg:text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white"
+					className="p-3 text-2xl lg:text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white"
 					data-aos="fade-left"
 				>
 					What do you do professionally?
@@ -98,7 +98,7 @@ export default function Home() {
 
 			<section className="flex flex-col items-center justify-center p-5">
 				<h3
-					className="p-3 text-3xl lg:text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white"
+					className="p-3 text-2xl lg:text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white"
 					data-aos="zoom-in-down"
 				>
 					Projects I&apos;ve worked on
