@@ -18,10 +18,11 @@ export default function Home() {
 					width={150}
 					height={150}
 					className="rounded-full my-8"
+					alt="coder_zi"
 				/>
 				<div className="w-[90%] lg:w-[60%] my-4" data-aos="fade-right">
 					<p className="text-4xl font-semibold text-center dark:text-slate-100">
-						Hello!! I'm Emmanuel, a Front End Developer with a
+						Hello!! I&apos;m Emmanuel, a Front End Developer with a
 						constantly evolving philosophical mind ⚜.
 					</p>
 				</div>
