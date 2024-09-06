@@ -15,8 +15,8 @@ export default function Home() {
 				<img
 					data-aos="zoom-in"
 					src="/images/coder_zi.png"
-					width={150}
-					height={150}
+					width={180}
+					height={180}
 					className="rounded-full my-6 md:my-10"
 					alt="coder_zi"
 				/>
