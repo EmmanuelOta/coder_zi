@@ -29,7 +29,7 @@ export default function Navbar() {
 		window.addEventListener("scroll", handleScroll);
 
 		return () => window.removeEventListener("scroll", handleScroll);
-	}, []);
+	}, [window.scrollY]);
 
 	useEffect(() => {
 		if (!show_menu) {
