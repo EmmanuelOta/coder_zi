@@ -21,7 +21,7 @@ export default function Home() {
 					alt="coder_zi"
 				/>
 				<div className="w-[90%] lg:w-[60%] my-4" data-aos="fade-right">
-					<p className="text-4xl font-semibold text-center dark:text-slate-100">
+					<p className="text-2xl lg:text-4xl font-semibold text-center dark:text-slate-100">
 						Hello!! I&apos;m Emmanuel, a Front End Developer with a
 						constantly evolving philosophical mind ⚜.
 					</p>
