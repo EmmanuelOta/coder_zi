@@ -3,7 +3,7 @@ export default function Home() {
 		<>
 			<section className="flex flex-col items-center justify-center p-5">
 				<div
-					className="flex flex-row my-6 items-center jusify-center relative bg-slate-200 dark:bg-zinc-700 border-4 border-white dark:border dark:border-slate-200 p-3 px-4 text-green-500 dark:text-green-300 rounded-2xl"
+					className="flex flex-row my-3 md:my-6 items-center jusify-center relative bg-slate-200 dark:bg-zinc-700 border-4 border-white dark:border dark:border-slate-200 p-3 px-4 text-green-500 dark:text-green-300 rounded-2xl"
 					data-aos="fade-left"
 				>
 					<span class="relative flex h-3 w-3 mx-2">
@@ -17,7 +17,7 @@ export default function Home() {
 					src="/images/coder_zi.png"
 					width={180}
 					height={180}
-					className="rounded-full my-6 lg:my-10"
+					className="rounded-full my-6 md:my-10"
 					alt="coder_zi"
 				/>
 				<div className="w-[90%] lg:w-[60%] my-4" data-aos="fade-right">
