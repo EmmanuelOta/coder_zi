@@ -1,10 +1,5 @@
 import Slider from "../components/picture-slider/Slider";
 
-import wanderlust_home from "../assets/wanderlust-home.png";
-import wanderlust_city from "../assets/wanderlust-city.png";
-import wanderlust_login from "../assets/wanderlust-login.png";
-import wanderlust_favourite from "../assets/wanderlust-favourite.png";
-
 export default function Home() {
 	//slider images for wanderlust
 	const wanderlust = [
@@ -123,7 +118,10 @@ export default function Home() {
 				</h3>
 
 				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full">
-					<div className="w-full lg:w-[50%] p-4" data-aos="fade-right">
+					<div
+						className="w-full lg:w-[50%] p-4"
+						data-aos="fade-right"
+					>
 						<Slider pictures={wanderlust} />
 					</div>
 					<div className="w-full lg:w-[50%] p-4" data-aos="fade-left">
