@@ -21,14 +21,16 @@ export default function Slider({ pictures }) {
 			loop={true}
 			spaceBetween={0}
 			slidesPerView={1}
-			className="max-w-full"
+			className="w-full h-[calc(100vh-80px)] md:h-[650px]"
 		>
 			{pictures.map((picture, index) => (
-				<SwiperSlide key={index} className="w-[800px]">
-					<div className="rounded-xl w-[800px]">
+				<SwiperSlide key={index} className="w-full h-full">
+					<div className="flex items-center justify-center bg-slate-300 dark:bg-zinc-700 w-full h-full bg-cover bg-center rounded-xl">
 						<img
-							src={`/images/wanderlust-images/${picture}`}
+							src={`images/wanderlust-images/${picture}`}
 							alt={picture}
+							width={1200}
+							height={650}
 						/>
 					</div>
 				</SwiperSlide>

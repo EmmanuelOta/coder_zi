@@ -131,8 +131,9 @@ export default function Home() {
 							Wanderlust
 						</h4>
 						<p className="p-2 font-medium">
-							Wanderlust is a vacation destination site, with over 200
-							vacation destinations ready for tourist to explore
+							Wanderlust is a vacation destination site, with over
+							200 vacation destinations ready for tourist to
+							explore
 						</p>
 					</div>
 				</div>
