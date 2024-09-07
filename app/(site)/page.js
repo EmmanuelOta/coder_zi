@@ -123,10 +123,10 @@ export default function Home() {
 				</h3>
 
 				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full">
-					<div className="w-full lg:w-[50%] p-4">
+					<div className="w-full lg:w-[50%] p-4" data-aos="fade-right">
 						<Slider pictures={wanderlust} />
 					</div>
-					<div className="w-full lg:w-[50%] p-4">
+					<div className="w-full lg:w-[50%] p-4" data-aos="fade-left">
 						<h4 className="text-2xl font-semibold text-center">
 							Wanderlust
 						</h4>
