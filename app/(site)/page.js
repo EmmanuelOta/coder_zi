@@ -1,5 +1,11 @@
 import Slider from "../components/picture-slider/Slider";
 
+export const metadata = {
+	title: "A Front End Developer with a constanly evolving philosophical mind ⚜",
+	description:
+		"coder_zi Instagram: https://instagram.com/coder_zi, coder_zi X: https://x.com/coder_zi, coder_zi LinkedIn: https://linkedin.com/in/coder-zi",
+};
+
 export default function Home() {
 	//slider images for wanderlust
 	const wanderlust = [
