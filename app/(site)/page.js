@@ -15,6 +15,17 @@ export default function Home() {
 		"wanderlust-favourite.png",
 	];
 
+	//slider images for dcwears
+	const dcwears = [
+		"dcwears-home.png",
+		"dcwears-categories.png",
+		"dcwears-all-products.png",
+		"dcwears-add-to-cart.png",
+		"dcwears-product-page.png",
+		"dcwears-similar-products.png",
+		"dcwears-checkout.png",
+	];
+
 	return (
 		<>
 			<section className="flex flex-col items-center justify-center p-5">
@@ -137,7 +148,7 @@ export default function Home() {
 					Projects I&apos;ve worked on
 				</h3>
 
-				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4">
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 my-5 lg:my-10">
 					<div
 						className="w-full lg:w-[50%] p-4"
 						data-aos="fade-right"
@@ -151,8 +162,80 @@ export default function Home() {
 						<p className="p-2 font-medium">
 							Wanderlust is a vacation destination site, with over
 							200 vacation destinations ready for tourist to
-							explore
+							explore. Wanderlust is a sleek travel inspiration
+							app, designed to spark adventure. Built with React,
+							it offers a fast, responsive user experience, while
+							Firebase powers real-time data and secure user
+							authentication. This project shows my ability to
+							craft dynamic, user-friendly interfaces and
+							seamlessly integrate backend services.
 						</p>
+						<a
+							target="_blank"
+							href="https://earthscapes.netlify.app"
+							className="mx-1 inline-flex items-center font-semibold p-2"
+						>
+							Wanderlust
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								strokeWidth={1.5}
+								stroke="currentColor"
+								className="size-3 mx-1"
+							>
+								<path
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+								/>
+							</svg>
+						</a>
+					</div>
+				</div>
+
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 my-5 lg:my-10">
+					<div className="w-full lg:w-[50%] p-4" data-aos="fade-left">
+						<h4 className="text-2xl font-semibold text-center">
+							E-commerce Store (DC Wears)
+						</h4>
+						<p className="p-2 font-medium">
+							DC Wears is a stylish e-commerce platform built for
+							seamless shopping. Developed using React for a fast
+							and responsive UI, and Firebase for real-time data
+							management, secure transactions, and user
+							authentication. This project showcases my ability to
+							create scalable online stores with smooth, intuitive
+							user experiences.
+						</p>
+						<a
+							target="_blank"
+							href="https://dcwears.netlify.app"
+							className="mx-1 inline-flex items-center font-semibold p-2"
+						>
+							DC Wears
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								strokeWidth={1.5}
+								stroke="currentColor"
+								className="size-3 mx-1"
+							>
+								<path
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+								/>
+							</svg>
+						</a>
+					</div>
+
+					<div
+						className="w-full lg:w-[50%] p-4"
+						data-aos="fade-right"
+					>
+						<Slider pictures={dcwears} />
 					</div>
 				</div>
 			</section>

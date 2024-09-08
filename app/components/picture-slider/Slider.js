@@ -28,7 +28,9 @@ export default function Slider({ pictures }) {
 					<SwiperSlide key={index} className="w-full h-full">
 						<div className="flex items-center justify-center bg-slate-300 dark:bg-zinc-700 w-full h-full">
 							<img
-								src={`images/wanderlust-images/${picture}`}
+								src={`images/${
+									picture.split("-")[0]
+								}-images/${picture}`}
 								alt={picture}
 								width={1200}
 								height={650}
