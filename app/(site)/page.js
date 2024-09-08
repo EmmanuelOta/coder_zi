@@ -46,6 +46,14 @@ export default function Home() {
 		"revia-faq.png",
 	];
 
+	const anaco = [
+		"anaco-hero.png",
+		"anaco-benefits.png",
+		"anaco-steps.png",
+		"anaco-faq.png",
+		"anaco-contact.png",
+	];
+
 	return (
 		<>
 			<section className="flex flex-col items-center justify-center p-5">
@@ -353,6 +361,53 @@ export default function Home() {
 						data-aos="fade-right"
 					>
 						<Slider pictures={revia} />
+					</div>
+				</div>
+
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full my-5 lg:my-10">
+					<div
+						className="w-full lg:w-[50%] p-4"
+						data-aos="fade-right"
+					>
+						<Slider pictures={anaco} />
+					</div>
+					<div
+						className="w-full lg:w-[50%] p-4 mx-0 lg:mx-5"
+						data-aos="fade-left"
+					>
+						<h4 className="text-2xl font-semibold text-center">
+							Anaco Paints - Landing Page
+						</h4>
+						<p className="p-2 font-medium">
+							Anaco Paints is a bright, attention-grabbing landing
+							page for a painting company, built with Next.js and
+							Tailwind CSS. I used strong visuals and a clean
+							design to make the services stand out, with clear,
+							persuasive copy to attract customers. This project
+							shows my ability to create designs that not only
+							look great but also help drive business results.
+						</p>
+						<a
+							target="_blank"
+							href="https://anacopaints.vercel.app"
+							className="mx-1 inline-flex items-center font-semibold p-2"
+						>
+							Anaco Paints
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								strokeWidth={1.5}
+								stroke="currentColor"
+								className="size-3 mx-1"
+							>
+								<path
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+								/>
+							</svg>
+						</a>
 					</div>
 				</div>
 			</section>
