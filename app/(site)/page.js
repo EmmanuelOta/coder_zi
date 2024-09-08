@@ -158,7 +158,7 @@ export default function Home() {
 			</section>
 
 			<section
-				className="flex flex-col items-center justify-center"
+				className="flex flex-col items-center justify-center p-5"
 				id="projects"
 			>
 				<h3
