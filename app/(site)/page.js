@@ -629,7 +629,7 @@ export default function Home() {
 					Looking for a developer to bring your project to life? I
 					specialize in building modern looking web applications and
 					high-converting landing pages with Next.js and Tailwind CSS.
-					Whether you're a recruiter, CEO, CTO, or a business looking
+					Whether you&apos;re a recruiter, CEO, CTO, or a business looking
 					for a clean, responsive design, I&apos;m here to help you
 					create something exceptional.
 				</p>
