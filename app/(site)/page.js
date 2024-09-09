@@ -487,124 +487,124 @@ export default function Home() {
 				<div
 					className="flex flex-row flex-wrap items-center justify-center w-[90%] lg:w-[80%] my-5 p-2"
 					data-aos="fade-up"
-					data-aos-delay="1450"
+					data-aos-delay="1000"
 				>
 					<p
 						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
 						data-aos="fade-left"
-						data-aos-delay="1500"
+						data-aos-delay="1100"
 					>
 						Next.js
 					</p>
 					<p
 						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
 						data-aos="fade-left"
-						data-aos-delay="1700"
+						data-aos-delay="1200"
 					>
 						React.js
 					</p>
 					<p
 						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
 						data-aos="fade-left"
-						data-aos-delay="1800"
+						data-aos-delay="1300"
 					>
 						TailwindCSS
 					</p>
 					<p
 						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
 						data-aos="fade-left"
-						data-aos-delay="1900"
+						data-aos-delay="1400"
 					>
 						Firebase
 					</p>
 					<p
 						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
 						data-aos="fade-left"
-						data-aos-delay="2000"
+						data-aos-delay="1500"
 					>
 						Cloud Firestore
 					</p>
 					<p
 						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
 						data-aos="fade-left"
-						data-aos-delay="2100"
+						data-aos-delay="1600"
 					>
 						HTML5
 					</p>
 					<p
 						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
 						data-aos="fade-left"
-						data-aos-delay="2200"
+						data-aos-delay="1700"
 					>
 						CSS3
 					</p>
 					<p
 						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
 						data-aos="fade-left"
-						data-aos-delay="2300"
+						data-aos-delay="1800"
 					>
 						Javascript
 					</p>
 					<p
 						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
 						data-aos="fade-left"
-						data-aos-delay="2400"
+						data-aos-delay="1900"
 					>
 						Python
 					</p>
 					<p
 						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
 						data-aos="fade-left"
-						data-aos-delay="2500"
+						data-aos-delay="2000"
 					>
 						Front End Development
 					</p>
 					<p
 						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
 						data-aos="fade-left"
-						data-aos-delay="2600"
+						data-aos-delay="2100"
 					>
 						Landing Page Optimization
 					</p>
 					<p
 						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
 						data-aos="fade-left"
-						data-aos-delay="2700"
+						data-aos-delay="2200"
 					>
 						Artificial Intelligence (AI)
 					</p>
 					<p
 						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
 						data-aos="fade-left"
-						data-aos-delay="2800"
+						data-aos-delay="2300"
 					>
 						User Experience (UX)
 					</p>
 					<p
 						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
 						data-aos="fade-left"
-						data-aos-delay="2900"
+						data-aos-delay="2400"
 					>
 						Web Development
 					</p>
 					<p
 						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
 						data-aos="fade-left"
-						data-aos-delay="3000"
+						data-aos-delay="2500"
 					>
 						Analytical Skills
 					</p>
 					<p
 						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
 						data-aos="fade-left"
-						data-aos-delay="3100"
+						data-aos-delay="2600"
 					>
 						Problem Solving
 					</p>
 					<p
 						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
 						data-aos="fade-left"
-						data-aos-delay="3200"
+						data-aos-delay="2700"
 					>
 						Communication
 					</p>
