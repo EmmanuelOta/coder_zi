@@ -137,7 +137,7 @@ export default function Home() {
 					Projects I&apos;ve worked on
 				</h3>
 
-				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full">
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4">
 					<div
 						className="w-full lg:w-[50%] p-4"
 						data-aos="fade-right"

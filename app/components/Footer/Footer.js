@@ -8,7 +8,7 @@ const fugaz_one = Fugaz_One({
 
 export default function Footer() {
 	return (
-		<nav className="flex items-center z-50 border-t border-t-zinc-300 dark:border-t dark:border-t-zinc-700 p-4 bg-gradient-to-r from-slate-100 via-white to-slate-200 dark:bg-gradient-to-b dark:from-zinc-800 dark:to-zinc-900 dark:text-white p-5">
+		<nav className="flex items-center z-50 border-t border-t-zinc-300 dark:border-t dark:border-t-zinc-700 bg-gradient-to-r from-slate-100 via-white to-slate-200 dark:bg-gradient-to-b dark:from-zinc-800 dark:to-zinc-900 dark:text-white p-5">
 			<div className="flex flex-col lg:flex-row lg:items-center justify-between w-full">
 				<div>
 					<div className="flex flex-row items-end">
@@ -16,7 +16,7 @@ export default function Footer() {
 							src="/images/coder_zi.png"
 							width={40}
 							height={20}
-							alt="revia"
+							alt="coder_zi"
 							className="rounded-full"
 						/>
 						<p className={`${fugaz_one.className} text-2xl mx-2`}>
@@ -38,7 +38,7 @@ export default function Footer() {
 							src="/images/x.svg"
 							width={20}
 							height={20}
-							alt="X profile"
+							alt="coder_zi X profile"
 							className="dark:invert"
 						/>
 					</a>
@@ -52,7 +52,7 @@ export default function Footer() {
 							src="/images/linkedin.svg"
 							width={20}
 							height={20}
-							alt="linkedin"
+							alt="coder_zi linkedin"
 							className="dark:invert"
 						/>
 					</a>
