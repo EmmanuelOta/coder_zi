@@ -624,7 +624,7 @@ export default function Home() {
 
 				<p className="p-2 w-[90%] lg:w-[80%] font-medium text-lg">
 					Looking for a developer to bring your project to life? I
-					specialize in building modern looking web applicaitons and
+					specialize in building modern looking web applications and
 					high-converting landing pages with Next.js and Tailwind CSS.
 					Whether you're a recruiter, CEO, CTO, or a business looking
 					for a clean, responsive design, I&apos;m here to help you
