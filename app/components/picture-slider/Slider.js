@@ -42,11 +42,11 @@ export default function Slider({ pictures }) {
 			<style jsx global>{`
 				.green-swiper .swiper-button-next,
 				.green-swiper .swiper-button-prev {
-					color: #16a34a;
+					color: black;
 				}
 
 				.green-swiper .swiper-pagination-bullet {
-					background: #16a34a;
+					background: black;
 					opacity: 0.5;
 				}
 

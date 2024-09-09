@@ -156,7 +156,7 @@ export default function Home() {
 								viewBox="0 0 24 24"
 								strokeWidth={1.5}
 								stroke="currentColor"
-								className="size-3 mx-1"
+								className="size-3 ml-1"
 							>
 								<path
 									strokeLinecap="round"
@@ -470,6 +470,144 @@ export default function Home() {
 					>
 						<Slider pictures={clipifai} />
 					</div>
+				</div>
+			</section>
+
+			<section
+				className="flex flex-col items-center justify-center p-5"
+				id="skills"
+			>
+				<h3
+					className="p-1 text-3xl lg:text-4xl font-semibold my-3 text-center text-zinc-800 dark:text-white"
+					data-aos="fade-up"
+				>
+					My Skills
+				</h3>
+
+				<div
+					className="flex flex-row flex-wrap items-center justify-center w-[90%] lg:w-[80%] my-5 p-2"
+					data-aos="fade-up"
+					data-aos-delay="1450"
+				>
+					<p
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						data-aos="fade-left"
+						data-aos-delay="1500"
+					>
+						Next.js
+					</p>
+					<p
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						data-aos="fade-left"
+						data-aos-delay="1700"
+					>
+						React.js
+					</p>
+					<p
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						data-aos="fade-left"
+						data-aos-delay="1800"
+					>
+						TailwindCSS
+					</p>
+					<p
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						data-aos="fade-left"
+						data-aos-delay="1900"
+					>
+						Firebase
+					</p>
+					<p
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						data-aos="fade-left"
+						data-aos-delay="2000"
+					>
+						Cloud Firestore
+					</p>
+					<p
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						data-aos="fade-left"
+						data-aos-delay="2100"
+					>
+						HTML5
+					</p>
+					<p
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						data-aos="fade-left"
+						data-aos-delay="2200"
+					>
+						CSS3
+					</p>
+					<p
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						data-aos="fade-left"
+						data-aos-delay="2300"
+					>
+						Javascript
+					</p>
+					<p
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						data-aos="fade-left"
+						data-aos-delay="2400"
+					>
+						Python
+					</p>
+					<p
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						data-aos="fade-left"
+						data-aos-delay="2500"
+					>
+						Front End Development
+					</p>
+					<p
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						data-aos="fade-left"
+						data-aos-delay="2600"
+					>
+						Landing Page Optimization
+					</p>
+					<p
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						data-aos="fade-left"
+						data-aos-delay="2700"
+					>
+						Artificial Intelligence (AI)
+					</p>
+					<p
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						data-aos="fade-left"
+						data-aos-delay="2800"
+					>
+						User Experience (UX)
+					</p>
+					<p
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						data-aos="fade-left"
+						data-aos-delay="2900"
+					>
+						Web Development
+					</p>
+					<p
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						data-aos="fade-left"
+						data-aos-delay="3000"
+					>
+						Analytical Skills
+					</p>
+					<p
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						data-aos="fade-left"
+						data-aos-delay="3100"
+					>
+						Problem Solving
+					</p>
+					<p
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						data-aos="fade-left"
+						data-aos-delay="3200"
+					>
+						Communication
+					</p>
 				</div>
 			</section>
 		</>
