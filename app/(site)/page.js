@@ -504,7 +504,7 @@ export default function Home() {
 						React.js
 					</p>
 					<p
-						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 transition ease-in-out duration-500 mx-3 my-3"
 						data-aos="fade-left"
 						data-aos-delay="1800"
 					>
@@ -518,91 +518,91 @@ export default function Home() {
 						Firebase
 					</p>
 					<p
-						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 transition ease-in-out duration-500 mx-3 my-3"
 						data-aos="fade-left"
 						data-aos-delay="2000"
 					>
 						Cloud Firestore
 					</p>
 					<p
-						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 transition ease-in-out duration-500 mx-3 my-3"
 						data-aos="fade-left"
 						data-aos-delay="2100"
 					>
 						HTML5
 					</p>
 					<p
-						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 transition ease-in-out duration-500 mx-3 my-3"
 						data-aos="fade-left"
 						data-aos-delay="2200"
 					>
 						CSS3
 					</p>
 					<p
-						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 transition ease-in-out duration-500 mx-3 my-3"
 						data-aos="fade-left"
 						data-aos-delay="2300"
 					>
 						Javascript
 					</p>
 					<p
-						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 transition ease-in-out duration-500 mx-3 my-3"
 						data-aos="fade-left"
 						data-aos-delay="2400"
 					>
 						Python
 					</p>
 					<p
-						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 transition ease-in-out duration-500 mx-3 my-3"
 						data-aos="fade-left"
 						data-aos-delay="2500"
 					>
 						Front End Development
 					</p>
 					<p
-						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 transition ease-in-out duration-500 mx-3 my-3"
 						data-aos="fade-left"
 						data-aos-delay="2600"
 					>
 						Landing Page Optimization
 					</p>
 					<p
-						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 transition ease-in-out duration-500 mx-3 my-3"
 						data-aos="fade-left"
 						data-aos-delay="2700"
 					>
 						Artificial Intelligence (AI)
 					</p>
 					<p
-						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 transition ease-in-out duration-500 mx-3 my-3"
 						data-aos="fade-left"
 						data-aos-delay="2800"
 					>
 						User Experience (UX)
 					</p>
 					<p
-						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 transition ease-in-out duration-500 mx-3 my-3"
 						data-aos="fade-left"
 						data-aos-delay="2900"
 					>
 						Web Development
 					</p>
 					<p
-						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 transition ease-in-out duration-500 mx-3 my-3"
 						data-aos="fade-left"
 						data-aos-delay="3000"
 					>
 						Analytical Skills
 					</p>
 					<p
-						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 transition ease-in-out duration-500 mx-3 my-3"
 						data-aos="fade-left"
 						data-aos-delay="3100"
 					>
 						Problem Solving
 					</p>
 					<p
-						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 transition ease-in-out duration-500 mx-3 my-3"
 						data-aos="fade-left"
 						data-aos-delay="3200"
 					>
