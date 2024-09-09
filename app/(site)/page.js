@@ -511,7 +511,7 @@ export default function Home() {
 						TailwindCSS
 					</p>
 					<p
-						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-bg-green-600 transition ease-in-out duration-500 mx-3 my-3"
+						className="rounded-lg text-lg font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 transition ease-in-out duration-500 mx-3 my-3"
 						data-aos="fade-left"
 						data-aos-delay="1900"
 					>
