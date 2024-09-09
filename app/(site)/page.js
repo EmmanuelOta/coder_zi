@@ -622,7 +622,10 @@ export default function Home() {
 					Contact Me
 				</h3>
 
-				<p className="p-2 w-[90%] lg:w-[80%] font-medium text-lg">
+				<p
+					className="p-2 w-[90%] lg:w-[80%] font-medium text-lg"
+					data-aos="fade-up"
+				>
 					Looking for a developer to bring your project to life? I
 					specialize in building modern looking web applications and
 					high-converting landing pages with Next.js and Tailwind CSS.
@@ -630,6 +633,65 @@ export default function Home() {
 					for a clean, responsive design, I&apos;m here to help you
 					create something exceptional.
 				</p>
+
+				<div
+					className="flex flex-col items-center justify-center p-4 w-[95%] lg:w-[80%] bg-slate-200 dark:bg-zinc-800 shadow-lg shadow-zinc-400 dark:shadow-none rounded-lg my-6"
+					data-aos="fade-up"
+				>
+					<div className="w-full flex flex-row items-center justify-evenly p-3 rounded-lg">
+						<a
+							className="p-2 rounded-lg hover:bg-slate-300 dark:hover:bg-zinc-400 mx-2 dark:invert"
+							target="_blank"
+							href={"https://x.com/coder_zi"}
+						>
+							<img
+								src="/images/x.svg"
+								width={80}
+								height={80}
+								alt="coder_zi X"
+							/>
+						</a>
+
+						<a
+							className="p-2 rounded-lg hover:bg-slate-300 dark:hover:bg-zinc-400 mx-2 dark:invert"
+							target="_blank"
+							href={"https://linkedin.com/in/coder-zi"}
+						>
+							<img
+								src="/images/linkedin.svg"
+								width={80}
+								height={80}
+								alt="coder_zi linkedin"
+							/>
+						</a>
+
+						<a
+							className="p-2 rounded-lg hover:bg-slate-300 dark:hover:bg-zinc-400 mx-2 dark:invert"
+							target="_blank"
+							href={"mailto:emmyraddo4@gmail.com"}
+						>
+							<img
+								src="/images/mail.png"
+								width={80}
+								height={80}
+								alt="coder_zi profile"
+							/>
+						</a>
+
+						<a
+							className="p-2 rounded-lg hover:bg-slate-300 dark:hover:bg-zinc-400 mx-2 dark:invert"
+							target="_blank"
+							href={"https://instagram.com/coder_zi"}
+						>
+							<img
+								src="/images/instagram.svg"
+								width={80}
+								height={80}
+								alt="coder_zi instagram"
+							/>
+						</a>
+					</div>
+				</div>
 			</section>
 		</>
 	);
