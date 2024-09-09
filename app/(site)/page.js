@@ -613,7 +613,7 @@ export default function Home() {
 
 			<section
 				className="flex flex-col items-center justify-center p-5"
-				id="skills"
+				id="contact"
 			>
 				<h3
 					className="p-1 text-3xl lg:text-4xl font-semibold my-3 text-center text-zinc-800 dark:text-white"
