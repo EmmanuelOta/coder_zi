@@ -635,7 +635,7 @@ export default function Home() {
 				</p>
 
 				<div
-					className="flex flex-col items-center justify-center p-4 w-[95%] lg:w-[80%] bg-slate-100 dark:bg-zinc-800 shadow-lg shadow-zinc-400 dark:shadow-none rounded-lg my-6"
+					className="flex flex-col items-center justify-center p-4 w-[95%] lg:w-[80%] bg-slate-100 dark:bg-zinc-800 shadow-lg shadow-zinc-400 dark:shadow-none rounded-2xl my-8"
 					data-aos="fade-up"
 				>
 					<div className="w-full flex flex-row items-center justify-evenly p-3 rounded-lg">
