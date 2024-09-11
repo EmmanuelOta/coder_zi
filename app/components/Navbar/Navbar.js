@@ -150,30 +150,59 @@ export default function Navbar() {
 							>
 								Contact
 							</Link>
-							<Link
+							<a
+								target="_blank"
 								href={
 									"https://docs.google.com/document/d/1_7M8XB0GCeD81eHLFowSKHBbLnJCZrditI-6yB9FKUE/edit?usp=sharing"
 								}
-								className="mt-6 dark:text-white"
+								className="inline-flex items-center justify-center mt-6 dark:text-white"
 								onClick={() => setShowMenu(false)}
 							>
 								View Resume
-							</Link>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									strokeWidth={1.5}
+									stroke="currentColor"
+									className="size-4 mx-1"
+								>
+									<path
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+									/>
+								</svg>
+							</a>
 						</div>
 					</div>
 				)}
 
 				<div className="hidden lg:flex">
 					<ThemeToggler />
-					<Link
-						className="inline-flex mx-4 bg-gradient-to-b from-green-400 to-green-500 text-white p-3 rounded-xl text-sm [&>*:last-child]:hover:translate-x-1 [&>*:last-child]:ease-in-out [&>*:last-child]:duration-200"
+					<a
+						className="inline-flex items-center justify-center mx-4 bg-gradient-to-b from-green-400 to-green-500 text-white p-3 rounded-xl text-sm [&>*:last-child]:hover:translate-x-1 [&>*:last-child]:ease-in-out [&>*:last-child]:duration-200"
+						target="_blank"
 						href={
 							"https://docs.google.com/document/d/1_7M8XB0GCeD81eHLFowSKHBbLnJCZrditI-6yB9FKUE/edit?usp=sharing"
 						}
 					>
 						View Resume
-						<div className="mx-1">-&gt;</div>
-					</Link>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							strokeWidth={1.5}
+							stroke="currentColor"
+							className="size-4 mx-1"
+						>
+							<path
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+							/>
+						</svg>
+					</a>
 				</div>
 			</div>
 		</nav>
