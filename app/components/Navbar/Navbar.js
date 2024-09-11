@@ -151,7 +151,9 @@ export default function Navbar() {
 								Contact
 							</Link>
 							<Link
-								href={"#"}
+								href={
+									"https://docs.google.com/document/d/1_7M8XB0GCeD81eHLFowSKHBbLnJCZrditI-6yB9FKUE/edit?usp=sharing"
+								}
 								className="mt-6 dark:text-white"
 								onClick={() => setShowMenu(false)}
 							>
@@ -165,7 +167,9 @@ export default function Navbar() {
 					<ThemeToggler />
 					<Link
 						className="inline-flex mx-4 bg-gradient-to-b from-green-400 to-green-500 text-white p-3 rounded-xl text-sm [&>*:last-child]:hover:translate-x-1 [&>*:last-child]:ease-in-out [&>*:last-child]:duration-200"
-						href={"#"}
+						href={
+							"https://docs.google.com/document/d/1_7M8XB0GCeD81eHLFowSKHBbLnJCZrditI-6yB9FKUE/edit?usp=sharing"
+						}
 					>
 						View Resume
 						<div className="mx-1">-&gt;</div>
