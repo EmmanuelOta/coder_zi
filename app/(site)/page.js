@@ -180,14 +180,14 @@ export default function Home() {
 					My Popular Projects
 				</h3>
 
-				<div
-					className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 my-5 lg:my-10"
-					data-aos="zoom-in-down"
-				>
-					<div className="w-full lg:w-[50%] p-4">
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 my-5 lg:my-10">
+					<div
+						className="w-full lg:w-[50%] p-4"
+						data-aos="fade-right"
+					>
 						<Slider pictures={wanderlust} />
 					</div>
-					<div className="w-full lg:w-[50%] p-4">
+					<div className="w-full lg:w-[50%] p-4" data-aos="fade-left">
 						<h4 className="text-2xl font-semibold text-center">
 							Wanderlust
 						</h4>
@@ -616,7 +616,9 @@ export default function Home() {
 				className="flex flex-col items-center justify-center p-5"
 				id="contact"
 			>
-				<h3 className="p-1 text-3xl lg:text-4xl font-semibold my-3 text-center text-zinc-800 dark:text-white">
+				<h3
+					className="p-1 text-3xl lg:text-4xl font-semibold my-3 text-center text-zinc-800 dark:text-white"
+				>
 					Contact Me
 				</h3>
 
