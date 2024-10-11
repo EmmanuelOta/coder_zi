@@ -9,8 +9,7 @@ export default function SiteLayout({ children }) {
 	useEffect(() => {
 		Aos.init({
 			duration: 1500,
-			once: false,
-			mirror: true,
+			once: true,
 		});
 	}, []);
 	return <div className="overflow-hidden">{children}</div>;

@@ -175,7 +175,6 @@ export default function Home() {
 			>
 				<h3
 					className="p-1 text-3xl lg:text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white"
-					data-aos="zoom-out-down"
 				>
 					My Popular Projects
 				</h3>
