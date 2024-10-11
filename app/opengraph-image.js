@@ -52,7 +52,7 @@ export default async function Image() {
 						<span
 							style={{
 								position: "absolute",
-								display: "inline-flex",
+								display: "flex",
 								height: "100%",
 								width: "100%",
 								borderRadius: "9999px",
