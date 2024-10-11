@@ -97,15 +97,12 @@ export default function Home() {
 				className="flex flex-col items-center justify-center p-5"
 				id="about"
 			>
-				<h3
-					className="p-1 text-3xl lg:text-4xl font-semibold my-3 text-center text-zinc-800 dark:text-white"
-					data-aos="fade-down"
-				>
+				<h3 className="p-1 text-3xl lg:text-4xl font-semibold my-3 text-center text-zinc-800 dark:text-white">
 					Who are you?
 				</h3>
 
 				<div
-					className="w-[90%] lg:w-[70%] my-2 text-lg font-medium"
+					className="w-[90%] lg:w-[70%] my-2 text-lg font-medium text-center"
 					data-aos="fade-up"
 				>
 					<p className="p-2 mt-2">
@@ -130,15 +127,12 @@ export default function Home() {
 					</p>
 				</div>
 
-				<h3
-					className="p-1 text-3xl lg:text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white"
-					data-aos="fade-left"
-				>
+				<h3 className="p-1 text-3xl lg:text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white">
 					What do you do professionally?
 				</h3>
 
 				<div
-					className="w-[90%] lg:w-[70%] my-2 text-lg font-medium"
+					className="w-[90%] lg:w-[70%] my-2 text-lg font-medium text-center"
 					data-aos="fade-up"
 				>
 					<p className="p-2">
@@ -508,6 +502,13 @@ export default function Home() {
 						data-aos="fade-left"
 						data-aos-delay="1300"
 					>
+						Typescript
+					</p>
+					<p
+						className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
+						data-aos="fade-left"
+						data-aos-delay="1300"
+					>
 						TailwindCSS
 					</p>
 					<p
@@ -617,13 +618,12 @@ export default function Home() {
 			>
 				<h3
 					className="p-1 text-3xl lg:text-4xl font-semibold my-3 text-center text-zinc-800 dark:text-white"
-					data-aos="zoom-out-up"
 				>
 					Contact Me
 				</h3>
 
 				<p
-					className="p-2 w-[90%] lg:w-[80%] font-medium text-lg"
+					className="p-2 w-[90%] lg:w-[80%] font-medium text-lg text-center"
 					data-aos="fade-up"
 				>
 					Looking for a developer to bring your project to life? I
