@@ -15,11 +15,11 @@ export default async function Image() {
 		(
 			<div
 				style={{
+					display: "flex",
 					fontSize: 32,
 					background: "white",
 					width: "100%",
 					height: "100%",
-					display: "flex",
 					flexDirection: "column",
 					alignItems: "center",
 					justifyContent: "center",
