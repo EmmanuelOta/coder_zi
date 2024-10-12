@@ -40,7 +40,7 @@ export default async function Image() {
 						marginBottom: "24px",
 					}}
 				>
-					<span
+					<div
 						style={{
 							position: "relative",
 							display: "flex",
@@ -49,7 +49,7 @@ export default async function Image() {
 							marginRight: "8px",
 						}}
 					>
-						<span
+						<div
 							style={{
 								position: "absolute",
 								display: "flex",
@@ -60,7 +60,7 @@ export default async function Image() {
 								opacity: 0.75,
 							}}
 						/>
-						<span
+						<div
 							style={{
 								position: "relative",
 								display: "flex",
@@ -70,7 +70,7 @@ export default async function Image() {
 								background: "#22c55e",
 							}}
 						/>
-					</span>
+					</div>
 					Open To Work
 				</div>
 				<img
