@@ -88,6 +88,7 @@ export default async function Image() {
 						height={180}
 						style={{
 							borderRadius: "9999px",
+							marginTop: "40px",
 							marginBottom: "40px",
 						}}
 						alt="coder_zi"
@@ -103,7 +104,7 @@ export default async function Image() {
 				>
 					<p
 						style={{
-							fontSize: 28,
+							fontSize: 37,
 							fontWeight: 600,
 							color: "#27272a",
 							textAlign: "center",
