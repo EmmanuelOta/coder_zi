@@ -36,7 +36,7 @@ export default async function Image() {
 						border: "2px solid #22c55e",
 						padding: "12px 16px",
 						color: "#22c55e",
-						borderRadius: "16px",
+						borderRadius: "24px",
 						marginBottom: "10px",
 					}}
 				>
@@ -44,8 +44,8 @@ export default async function Image() {
 						style={{
 							display: "flex",
 							position: "relative",
-							height: "12px",
-							width: "12px",
+							height: "18px",
+							width: "18px",
 							marginRight: "8px",
 						}}
 					>
@@ -65,8 +65,8 @@ export default async function Image() {
 								display: "flex",
 								position: "relative",
 								borderRadius: "9999px",
-								height: "12px",
-								width: "12px",
+								height: "18px",
+								width: "18px",
 								background: "#22c55e",
 							}}
 						/>
@@ -75,7 +75,7 @@ export default async function Image() {
 						style={{
 							display: "flex",
 							marginTop: "4px",
-							padding: "4px",
+							padding: "2px",
 						}}
 					>
 						Open To Work
