@@ -71,7 +71,7 @@ export default async function Image() {
 							}}
 						/>
 					</div>
-					Open To Work
+					<div style={{ display: "flex" }}>Open To Work</div>
 				</div>
 				<img
 					src="https://coder-zi.vercel.app/images/coder_zi.png"

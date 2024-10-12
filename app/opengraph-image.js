@@ -63,7 +63,7 @@ export default async function Image() {
 						<div
 							style={{
 								display: "flex",
-								position: "relative",								
+								position: "relative",
 								borderRadius: "9999px",
 								height: "12px",
 								width: "12px",
@@ -71,7 +71,7 @@ export default async function Image() {
 							}}
 						/>
 					</div>
-					Open To Work
+					<div style={{ display: "flex" }}>Open To Work</div>
 				</div>
 				<img
 					src="https://coder-zi.vercel.app/images/coder_zi.png"
