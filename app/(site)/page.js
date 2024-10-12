@@ -199,7 +199,7 @@ export default function Home() {
 						<a
 							target="_blank"
 							href="https://earthscapes.netlify.app"
-							className="mx-1 inline-flex items-center justify-center lg:justify-left w-full font-semibold p-2 text-center lg:text-left"
+							className="mx-1 inline-flex items-center justify-center lg:justify-start w-full font-semibold p-2 text-center lg:text-left"
 						>
 							Wanderlust
 							<svg
@@ -237,7 +237,7 @@ export default function Home() {
 						<a
 							target="_blank"
 							href="https://dcwears.netlify.app"
-							className="mx-1 inline-flex items-center justify-center lg:justify-left w-full font-semibold p-2 text-center lg:text-left"
+							className="mx-1 inline-flex items-center justify-center lg:justify-start w-full font-semibold p-2 text-center lg:text-left"
 						>
 							DC Wears
 							<svg
@@ -286,7 +286,7 @@ export default function Home() {
 						<a
 							target="_blank"
 							href="https://emporionexchange.xyz"
-							className="mx-1 inline-flex items-center justify-center lg:justify-left w-full font-semibold p-2 text-center lg:text-left"
+							className="mx-1 inline-flex items-center justify-center lg:justify-start w-full font-semibold p-2 text-center lg:text-left"
 						>
 							Emporion
 							<svg
@@ -328,7 +328,7 @@ export default function Home() {
 						<a
 							target="_blank"
 							href="https://revia.vercel.app"
-							className="mx-1 inline-flex items-center justify-center lg:justify-left w-full font-semibold p-2 text-center lg:text-left"
+							className="mx-1 inline-flex items-center justify-center lg:justify-start w-full font-semibold p-2 text-center lg:text-left"
 						>
 							Revia
 							<svg
@@ -376,7 +376,7 @@ export default function Home() {
 						<a
 							target="_blank"
 							href="https://anacopaints.vercel.app"
-							className="mx-1 inline-flex items-center justify-center lg:justify-left w-full font-semibold p-2 text-center lg:text-left"
+							className="mx-1 inline-flex items-center justify-center lg:justify-start w-full font-semibold p-2 text-center lg:text-left"
 						>
 							Anaco Paints
 							<svg
@@ -420,7 +420,7 @@ export default function Home() {
 						<a
 							target="_blank"
 							href="https://clipifai.vercel.app"
-							className="mx-1 inline-flex items-center justify-center lg:justify-left w-full font-semibold p-2 text-center lg:text-left"
+							className="mx-1 inline-flex items-center justify-center lg:justify-start w-full font-semibold p-2 text-center lg:text-left"
 						>
 							Clipifai
 							<svg
