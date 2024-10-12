@@ -17,7 +17,7 @@ export default async function Image() {
 				style={{
 					display: "flex",
 					fontSize: 32,
-					background: "white",
+					background: "#F1F5F9",
 					width: "100%",
 					height: "100%",
 					flexDirection: "column",
@@ -37,7 +37,7 @@ export default async function Image() {
 						padding: "12px 16px",
 						color: "#22c55e",
 						borderRadius: "16px",
-						marginBottom: "24px",
+						marginBottom: "10px",
 					}}
 				>
 					<div
@@ -71,7 +71,15 @@ export default async function Image() {
 							}}
 						/>
 					</div>
-					<div style={{ display: "flex" }}>Open To Work</div>
+					<div
+						style={{
+							display: "flex",
+							marginTop: "10px",
+							padding: "8px",
+						}}
+					>
+						Open To Work
+					</div>
 				</div>
 				<div style={{ display: "flex" }}>
 					<img
@@ -85,17 +93,17 @@ export default async function Image() {
 						alt="coder_zi"
 					/>
 				</div>
-				
+
 				<div
 					style={{
 						display: "flex",
-						width: "60%",
+						width: "90%",
 						marginBottom: "16px",
 					}}
 				>
 					<p
 						style={{
-							fontSize: 48,
+							fontSize: 20,
 							fontWeight: 600,
 							color: "#27272a",
 							textAlign: "center",
