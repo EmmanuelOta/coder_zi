@@ -9,7 +9,7 @@ import { ThemeProvider } from "next-themes";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-	title: "coder_zi's portfolio",
+	title: "coder_zi -coder_zi's portfolio",
 	description:
 		"Front End developer with a philosophical mind. Perpetual state of evolution ⚜.",
 };
