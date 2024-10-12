@@ -612,10 +612,10 @@ export default function Home() {
 				</p>
 
 				<div
-					className="flex flex-col items-center justify-center p-2 w-[80%] w-[50%] bg-slate-100 dark:bg-zinc-800 border border-slate-300 dark:border-zinc-600 rounded-2xl my-8"
+					className="flex flex-col items-center justify-center p-2 w-[80%] lg:w-[50%] bg-slate-100 dark:bg-zinc-800 border border-slate-300 dark:border-zinc-600 rounded-2xl my-8"
 					data-aos="fade-up"
 				>
-					<div className="w-full flex flex-row items-center justify-evenly p-3 rounded-lg">
+					<div className="w-full flex flex-row items-center justify-evenly rounded-lg">
 						<a
 							className="p-2 rounded-lg hover:bg-slate-300 dark:hover:bg-zinc-400 mx-2 dark:invert"
 							target="_blank"
