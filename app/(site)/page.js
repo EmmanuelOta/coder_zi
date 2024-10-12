@@ -623,8 +623,8 @@ export default function Home() {
 						>
 							<img
 								src="/images/x.svg"
-								width={80}
-								height={80}
+								width={40}
+								height={40}
 								alt="coder_zi X"
 							/>
 						</a>
@@ -636,8 +636,8 @@ export default function Home() {
 						>
 							<img
 								src="/images/linkedin.svg"
-								width={80}
-								height={80}
+								width={40}
+								height={40}
 								alt="coder_zi linkedin"
 							/>
 						</a>
@@ -649,8 +649,8 @@ export default function Home() {
 						>
 							<img
 								src="/images/mail.png"
-								width={80}
-								height={80}
+								width={40}
+								height={40}
 								alt="coder_zi profile"
 							/>
 						</a>
@@ -662,8 +662,8 @@ export default function Home() {
 						>
 							<img
 								src="/images/instagram.svg"
-								width={80}
-								height={80}
+								width={40}
+								height={40}
 								alt="coder_zi instagram"
 							/>
 						</a>
