@@ -105,7 +105,7 @@ export default async function Image() {
 					<p
 						style={{
 							fontSize: 37,
-							fontWeight: 600,
+							fontWeight: 800,
 							color: "#27272a",
 							textAlign: "center",
 						}}
