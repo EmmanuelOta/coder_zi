@@ -42,8 +42,8 @@ export default async function Image() {
 				>
 					<div
 						style={{
-							position: "relative",
 							display: "flex",
+							position: "relative",
 							height: "12px",
 							width: "12px",
 							marginRight: "8px",
@@ -51,8 +51,8 @@ export default async function Image() {
 					>
 						<div
 							style={{
-								position: "absolute",
 								display: "flex",
+								position: "absolute",
 								height: "100%",
 								width: "100%",
 								borderRadius: "9999px",
@@ -62,8 +62,8 @@ export default async function Image() {
 						/>
 						<div
 							style={{
-								position: "relative",
 								display: "flex",
+								position: "relative",
 								borderRadius: "9999px",
 								height: "12px",
 								width: "12px",
@@ -85,6 +85,7 @@ export default async function Image() {
 				/>
 				<div
 					style={{
+						display: "block",
 						width: "60%",
 						marginBottom: "16px",
 					}}
