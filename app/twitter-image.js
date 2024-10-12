@@ -74,8 +74,8 @@ export default async function Image() {
 					<div
 						style={{
 							display: "flex",
-							marginTop: "10px",
-							padding: "8px",
+							marginTop: "4px",
+							padding: "4px",
 						}}
 					>
 						Open To Work
@@ -103,7 +103,7 @@ export default async function Image() {
 				>
 					<p
 						style={{
-							fontSize: 20,
+							fontSize: 28,
 							fontWeight: 600,
 							color: "#27272a",
 							textAlign: "center",
