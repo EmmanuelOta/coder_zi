@@ -63,7 +63,7 @@ export default async function Image() {
 						<span
 							style={{
 								position: "relative",
-								display: "inline-flex",
+								display: "flex",
 								borderRadius: "9999px",
 								height: "12px",
 								width: "12px",
