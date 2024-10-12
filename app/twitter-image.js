@@ -73,19 +73,22 @@ export default async function Image() {
 					</div>
 					<div style={{ display: "flex" }}>Open To Work</div>
 				</div>
-				<img
-					src="https://coder-zi.vercel.app/images/coder_zi.png"
-					width={180}
-					height={180}
-					style={{
-						borderRadius: "9999px",
-						marginBottom: "40px",
-					}}
-					alt="coder_zi"
-				/>
+				<div style={{ display: "flex" }}>
+					<img
+						src="https://coder-zi.vercel.app/images/coder_zi.png"
+						width={180}
+						height={180}
+						style={{
+							borderRadius: "9999px",
+							marginBottom: "40px",
+						}}
+						alt="coder_zi"
+					/>
+				</div>
+				
 				<div
 					style={{
-						display: "block",
+						display: "flex",
 						width: "60%",
 						marginBottom: "16px",
 					}}
