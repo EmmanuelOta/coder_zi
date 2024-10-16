@@ -225,7 +225,7 @@ export default function Home() {
 						<h4 className="text-2xl font-semibold text-center">
 							E-commerce Store (DC Wears)
 						</h4>
-						<p className="p-2 font-mediumtext-center lg:text-left ">
+						<p className="p-2 font-medium text-center lg:text-left ">
 							DC Wears is a stylish e-commerce platform built for
 							seamless shopping. Developed using React for a fast
 							and responsive UI, and Firebase for real-time data
@@ -612,7 +612,7 @@ export default function Home() {
 				</p>
 
 				<div
-					className="flex flex-col items-center justify-center p-2 w-[80%] lg:w-[45%] bg-slate-100 dark:bg-zinc-800 border border-slate-300 dark:border-zinc-600 rounded-2xl my-8"
+					className="flex flex-col items-center justify-center p-2 py-4 w-[80%] lg:w-[45%] bg-slate-100 dark:bg-zinc-800 border border-slate-300 dark:border-zinc-600 rounded-2xl my-8"
 					data-aos="fade-up"
 				>
 					<div className="w-full flex flex-row items-center justify-evenly rounded-lg">
