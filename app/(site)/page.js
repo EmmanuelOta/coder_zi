@@ -191,7 +191,7 @@ export default function Home() {
 			</section>
 
 			<section
-				className="flex flex-col items-center justify-center p-5 space-y-5 lg:space-y-16"
+				className="flex flex-col items-center justify-center p-5 space-y-5 lg:space-y-28"
 				id="projects"
 			>
 				<h3 className="p-1 text-3xl lg:text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white">
