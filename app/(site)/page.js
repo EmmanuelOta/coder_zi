@@ -522,7 +522,7 @@ export default function Home() {
 				>
 					<div className="w-full flex flex-row items-center justify-evenly rounded-lg">
 						<a
-							className="p-2 rounded-lg hover:bg-zinc-300 dark:hover:bg-zinc-700 mx-2 dark:invert"
+							className="p-2 rounded-lg hover:bg-zinc-300 dark:hover:bg-zinc-900 mx-2 dark:invert"
 							target="_blank"
 							href={"https://x.com/coder_zi"}
 						>
@@ -535,7 +535,7 @@ export default function Home() {
 						</a>
 
 						<a
-							className="p-2 rounded-lg hover:bg-slate-300 dark:hover:bg-zinc-700 mx-2 dark:invert"
+							className="p-2 rounded-lg hover:bg-slate-300 dark:hover:bg-zinc-900 mx-2 dark:invert"
 							target="_blank"
 							href={"https://linkedin.com/in/coder-zi"}
 						>
@@ -548,7 +548,7 @@ export default function Home() {
 						</a>
 
 						<a
-							className="p-2 rounded-lg hover:bg-slate-300 dark:hover:bg-zinc-700 mx-2 dark:invert"
+							className="p-2 rounded-lg hover:bg-slate-300 dark:hover:bg-zinc-900 mx-2 dark:invert"
 							target="_blank"
 							href={"mailto:emmyraddo4@gmail.com"}
 						>
@@ -561,7 +561,7 @@ export default function Home() {
 						</a>
 
 						<a
-							className="p-2 rounded-lg hover:bg-slate-300 dark:hover:bg-zinc-700 mx-2 dark:invert"
+							className="p-2 rounded-lg hover:bg-slate-300 dark:hover:bg-zinc-900 mx-2 dark:invert"
 							target="_blank"
 							href={"https://instagram.com/coder_zi"}
 						>
