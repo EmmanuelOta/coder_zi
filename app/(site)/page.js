@@ -71,7 +71,7 @@ export default function Home() {
 		"Typescript",
 		"TailwindCSS",
 		"Firebase",
-		"Cloud firstore",
+		"Cloud firestore",
 		"HTML5",
 		"CSS3",
 		"Javascript",
