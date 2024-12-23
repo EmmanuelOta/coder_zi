@@ -64,6 +64,27 @@ export default function Home() {
 		"clipifai-image-converted.png",
 	];
 
+	//skills
+	const skills = [
+		"Next.js",
+		"React.js",
+		"Typescript",
+		"TailwindCSS",
+		"Firebase",
+		"Cloud firstore",
+		"HTML5",
+		"CSS3",
+		"Javascript",
+		"Python",
+		"Front End Development",
+		"Landing Page Optimization",
+		"Artificial Intelligence (AI)",
+		"User Experience (UX)",
+		"Web Development",
+		"Analytical Skills",
+		"Problem Solving",
+	];
+
 	return (
 		<>
 			<section className="flex flex-col items-center justify-center p-5">
@@ -457,138 +478,22 @@ export default function Home() {
 					My Skills
 				</h3>
 
-				<div
-					className="flex flex-row flex-wrap items-center justify-center w-[90%] lg:w-[80%] my-5 p-2"
-					data-aos="fade-up"
-					data-aos-delay="1000"
-				>
-					<p
-						className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
-						data-aos="fade-left"
-						data-aos-delay="1100"
+				{skills.map((skill, index) => (
+					<div
+						className="flex flex-row flex-wrap items-center justify-center w-[90%] lg:w-[80%] my-5 p-2"
+						data-aos="fade-up"
+						data-aos-delay="1000"
+						key={index}
 					>
-						Next.js
-					</p>
-					<p
-						className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
-						data-aos="fade-left"
-						data-aos-delay="1200"
-					>
-						React.js
-					</p>
-					<p
-						className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
-						data-aos="fade-left"
-						data-aos-delay="1300"
-					>
-						Typescript
-					</p>
-					<p
-						className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
-						data-aos="fade-left"
-						data-aos-delay="1300"
-					>
-						TailwindCSS
-					</p>
-					<p
-						className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
-						data-aos="fade-left"
-						data-aos-delay="1400"
-					>
-						Firebase
-					</p>
-					<p
-						className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
-						data-aos="fade-left"
-						data-aos-delay="1500"
-					>
-						Cloud Firestore
-					</p>
-					<p
-						className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
-						data-aos="fade-left"
-						data-aos-delay="1600"
-					>
-						HTML5
-					</p>
-					<p
-						className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
-						data-aos="fade-left"
-						data-aos-delay="1700"
-					>
-						CSS3
-					</p>
-					<p
-						className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
-						data-aos="fade-left"
-						data-aos-delay="1800"
-					>
-						Javascript
-					</p>
-					<p
-						className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
-						data-aos="fade-left"
-						data-aos-delay="1900"
-					>
-						Python
-					</p>
-					<p
-						className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
-						data-aos="fade-left"
-						data-aos-delay="2000"
-					>
-						Front End Development
-					</p>
-					<p
-						className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
-						data-aos="fade-left"
-						data-aos-delay="2100"
-					>
-						Landing Page Optimization
-					</p>
-					<p
-						className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
-						data-aos="fade-left"
-						data-aos-delay="2200"
-					>
-						Artificial Intelligence (AI)
-					</p>
-					<p
-						className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
-						data-aos="fade-left"
-						data-aos-delay="2300"
-					>
-						User Experience (UX)
-					</p>
-					<p
-						className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
-						data-aos="fade-left"
-						data-aos-delay="2400"
-					>
-						Web Development
-					</p>
-					<p
-						className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
-						data-aos="fade-left"
-						data-aos-delay="2500"
-					>
-						Analytical Skills
-					</p>
-					<p
-						className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
-						data-aos="fade-left"
-						data-aos-delay="2600"
-					>
-						Problem Solving
-					</p>
-					<p
-						className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-green-600 hover:border hover:border-green-600 mx-3 my-3"
-						data-aos="fade-left"
-						data-aos-delay="2700"
-					>
-						Communication
-					</p>
-				</div>
+						<p
+							className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-zinc-900 dark:hover:bg-zinc-100 dark:hover:text-zinc-800 hover:border hover:border-slate-300 mx-3 my-3"
+							data-aos="fade-left"
+							data-aos-delay={1000 + (index + 1) * 100}
+						>
+							{skill}
+						</p>
+					</div>
+				))}
 			</section>
 
 			<section
