@@ -191,14 +191,14 @@ export default function Home() {
 			</section>
 
 			<section
-				className="flex flex-col items-center justify-center p-5 space-y-10"
+				className="flex flex-col items-center justify-center p-5 space-y-5 lg:space-y-10"
 				id="projects"
 			>
 				<h3 className="p-1 text-3xl lg:text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white">
 					My Popular Projects
 				</h3>
 
-				<section className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 my-5 lg:my-10 space-x-4">
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7">
 					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={wanderlust} />
 					</div>
@@ -239,9 +239,9 @@ export default function Home() {
 							</svg>
 						</a>
 					</div>
-				</section>
+				</div>
 
-				<section className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 my-5 lg:my-10 space-x-4">
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7">
 					<div className="w-full lg:w-[50%] p-2" data-aos="fade-down">
 						<h4 className="text-2xl font-semibold text-center">
 							E-commerce Store (DC Wears)
@@ -281,9 +281,9 @@ export default function Home() {
 					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={dcwears} />
 					</div>
-				</section>
+				</div>
 
-				<section className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 my-5 lg:my-10 space-x-4">
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7">
 					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={emporion} />
 					</div>
@@ -326,11 +326,11 @@ export default function Home() {
 							</svg>
 						</a>
 					</div>
-				</section>
+				</div>
 
-				<section className="flex flex-col lg:flex-row items-center justify-center max-w-full my-5 lg:my-10 space-x-4">
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7">
 					<div
-						className="w-full lg:w-[50%] p-2 mx-0 lg:mx-5"
+						className="w-full lg:w-[50%] p-2"
 						data-aos="fade-down"
 					>
 						<h4 className="text-2xl font-semibold text-center">
@@ -372,14 +372,14 @@ export default function Home() {
 					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={revia} />
 					</div>
-				</section>
+				</div>
 
-				<section className="flex flex-col lg:flex-row items-center justify-center max-w-full my-5 lg:my-10 space-x-4">
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7">
 					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={anaco} />
 					</div>
 					<div
-						className="w-full lg:w-[50%] p-2 mx-0 lg:mx-5"
+						className="w-full lg:w-[50%] p-2"
 						data-aos="fade-down"
 					>
 						<h4 className="text-2xl font-semibold text-center">
@@ -416,11 +416,11 @@ export default function Home() {
 							</svg>
 						</a>
 					</div>
-				</section>
+				</div>
 
-				<section className="flex flex-col lg:flex-row items-center justify-center max-w-full my-5 lg:my-10 space-x-4">
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7">
 					<div
-						className="w-full lg:w-[50%] p-2 mx-0 lg:mx-5"
+						className="w-full lg:w-[50%] p-2"
 						data-aos="fade-down"
 					>
 						<h4 className="text-2xl font-semibold text-center">
@@ -464,7 +464,7 @@ export default function Home() {
 					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={clipifai} />
 					</div>
-				</section>
+				</div>
 			</section>
 
 			<section
