@@ -181,14 +181,27 @@ export default function Navbar() {
 				<div className="hidden lg:flex">
 					<ThemeToggler />
 					<a
-						className="inline-flex items-center justify-center font-semibold mx-4 bg-gradient-to-r from-green-500 to-green-600 text-white p-3 rounded-xl text-sm [&>*:last-child]:hover:translate-x-1 [&>*:last-child]:ease-in-out [&>*:last-child]:duration-200"
+						className="inline-flex items-center justify-center font-semibold mx-4 bg-zinc-900 text-white p-3 rounded-xl text-sm [&>*:last-child]:hover:translate-x-1 [&>*:last-child]:ease-in-out [&>*:last-child]:duration-200"
 						target="_blank"
 						href={
 							"https://docs.google.com/document/d/1_7M8XB0GCeD81eHLFowSKHBbLnJCZrditI-6yB9FKUE/edit?usp=sharing"
 						}
 					>
 						View Resume
-						<span className="mx-1">-&gt;</span>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							strokeWidth={1.5}
+							stroke="currentColor"
+							className="size-6"
+						>
+							<path
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								d="m8.25 4.5 7.5 7.5-7.5 7.5"
+							/>
+						</svg>
 					</a>
 				</div>
 			</div>
