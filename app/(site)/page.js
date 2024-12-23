@@ -478,22 +478,22 @@ export default function Home() {
 					My Skills
 				</h3>
 
-				{skills.map((skill, index) => (
-					<div
-						className="flex flex-row flex-wrap items-center justify-center w-[90%] lg:w-[80%] my-5 p-2"
-						data-aos="fade-up"
-						data-aos-delay="1000"
-						key={index}
-					>
+				<div
+					className="flex flex-row flex-wrap items-center justify-center w-[90%] lg:w-[80%] my-5 p-2"
+					data-aos="fade-up"
+					data-aos-delay="1000"
+				>
+					{skills.map((skill, index) => (
 						<p
+							key={index}
 							className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-500 hover:bg-zinc-900 dark:hover:bg-zinc-100 dark:hover:text-zinc-800 hover:border hover:border-slate-300 mx-3 my-3"
 							data-aos="fade-left"
 							data-aos-delay={1000 + (index + 1) * 100}
 						>
 							{skill}
 						</p>
-					</div>
-				))}
+					))}
+				</div>
 			</section>
 
 			<section
