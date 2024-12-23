@@ -181,7 +181,7 @@ export default function Navbar() {
 				<div className="hidden lg:flex">
 					<ThemeToggler />
 					<a
-						className="inline-flex items-center justify-center font-semibold mx-4 bg-zinc-900 text-white p-3 rounded-xl text-sm [&>*:last-child]:hover:translate-x-1 [&>*:last-child]:ease-in-out [&>*:last-child]:duration-200"
+						className="inline-flex items-center justify-center font-semibold mx-4 bg-zinc-900 text-white p-3 rounded-lg text-sm [&>*:last-child]:hover:translate-x-1 [&>*:last-child]:ease-in-out [&>*:last-child]:duration-200"
 						target="_blank"
 						href={
 							"https://docs.google.com/document/d/1_7M8XB0GCeD81eHLFowSKHBbLnJCZrditI-6yB9FKUE/edit?usp=sharing"
@@ -194,7 +194,7 @@ export default function Navbar() {
 							viewBox="0 0 24 24"
 							strokeWidth={1.5}
 							stroke="currentColor"
-							className="size-6"
+							className="size-5"
 						>
 							<path
 								strokeLinecap="round"
