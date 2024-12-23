@@ -191,14 +191,14 @@ export default function Home() {
 			</section>
 
 			<section
-				className="flex flex-col items-center justify-center p-5 space-y-5 lg:space-y-10"
+				className="flex flex-col items-center justify-center p-5 space-y-5 lg:space-y-16"
 				id="projects"
 			>
 				<h3 className="p-1 text-3xl lg:text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white">
 					My Popular Projects
 				</h3>
 
-				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7">
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7 lg:space-x-6">
 					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={wanderlust} />
 					</div>
@@ -241,7 +241,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7">
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7 lg:space-x-6">
 					<div className="w-full lg:w-[50%] p-2" data-aos="fade-down">
 						<h4 className="text-2xl font-semibold text-center">
 							E-commerce Store (DC Wears)
@@ -283,7 +283,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7">
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7 lg:space-x-6">
 					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={emporion} />
 					</div>
@@ -328,11 +328,8 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7">
-					<div
-						className="w-full lg:w-[50%] p-2"
-						data-aos="fade-down"
-					>
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7 lg:space-x-6">
+					<div className="w-full lg:w-[50%] p-2" data-aos="fade-down">
 						<h4 className="text-2xl font-semibold text-center">
 							AI Voice Call Assistant (Revia) - Landing Page
 						</h4>
@@ -374,14 +371,11 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7">
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7 lg:space-x-6">
 					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={anaco} />
 					</div>
-					<div
-						className="w-full lg:w-[50%] p-2"
-						data-aos="fade-down"
-					>
+					<div className="w-full lg:w-[50%] p-2" data-aos="fade-down">
 						<h4 className="text-2xl font-semibold text-center">
 							Anaco Paints - Landing Page
 						</h4>
@@ -418,11 +412,8 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7">
-					<div
-						className="w-full lg:w-[50%] p-2"
-						data-aos="fade-down"
-					>
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7 lg:space-x-6">
+					<div className="w-full lg:w-[50%] p-2" data-aos="fade-down">
 						<h4 className="text-2xl font-semibold text-center">
 							Clipifai - Document to Audiobook Converter (SaaS)
 						</h4>
