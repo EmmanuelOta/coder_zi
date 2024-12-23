@@ -198,7 +198,7 @@ export default function Home() {
 					My Popular Projects
 				</h3>
 
-				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 my-5 lg:my-10">
+				<section className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 my-5 lg:my-10 space-x-4">
 					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={wanderlust} />
 					</div>
@@ -239,9 +239,9 @@ export default function Home() {
 							</svg>
 						</a>
 					</div>
-				</div>
+				</section>
 
-				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 my-5 lg:my-10">
+				<section className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 my-5 lg:my-10 space-x-4">
 					<div className="w-full lg:w-[50%] p-2" data-aos="fade-down">
 						<h4 className="text-2xl font-semibold text-center">
 							E-commerce Store (DC Wears)
@@ -281,9 +281,9 @@ export default function Home() {
 					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={dcwears} />
 					</div>
-				</div>
+				</section>
 
-				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 my-5 lg:my-10">
+				<section className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 my-5 lg:my-10 space-x-4">
 					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={emporion} />
 					</div>
@@ -326,9 +326,9 @@ export default function Home() {
 							</svg>
 						</a>
 					</div>
-				</div>
+				</section>
 
-				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full my-5 lg:my-10">
+				<section className="flex flex-col lg:flex-row items-center justify-center max-w-full my-5 lg:my-10 space-x-4">
 					<div
 						className="w-full lg:w-[50%] p-2 mx-0 lg:mx-5"
 						data-aos="fade-down"
@@ -372,9 +372,9 @@ export default function Home() {
 					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={revia} />
 					</div>
-				</div>
+				</section>
 
-				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full my-5 lg:my-10">
+				<section className="flex flex-col lg:flex-row items-center justify-center max-w-full my-5 lg:my-10 space-x-4">
 					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={anaco} />
 					</div>
@@ -416,9 +416,9 @@ export default function Home() {
 							</svg>
 						</a>
 					</div>
-				</div>
+				</section>
 
-				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full my-5 lg:my-10">
+				<section className="flex flex-col lg:flex-row items-center justify-center max-w-full my-5 lg:my-10 space-x-4">
 					<div
 						className="w-full lg:w-[50%] p-2 mx-0 lg:mx-5"
 						data-aos="fade-down"
@@ -464,7 +464,7 @@ export default function Home() {
 					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={clipifai} />
 					</div>
-				</div>
+				</section>
 			</section>
 
 			<section
