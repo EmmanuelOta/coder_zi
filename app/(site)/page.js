@@ -191,7 +191,7 @@ export default function Home() {
 			</section>
 
 			<section
-				className="flex flex-col items-center justify-center p-5"
+				className="flex flex-col items-center justify-center p-5 space-y-10"
 				id="projects"
 			>
 				<h3 className="p-1 text-3xl lg:text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white">
@@ -199,10 +199,10 @@ export default function Home() {
 				</h3>
 
 				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 my-5 lg:my-10">
-					<div className="w-full lg:w-[50%] p-4" data-aos="fade-up">
+					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={wanderlust} />
 					</div>
-					<div className="w-full lg:w-[50%] p-4" data-aos="fade-down">
+					<div className="w-full lg:w-[50%] p-2" data-aos="fade-down">
 						<h4 className="text-2xl font-semibold text-center">
 							Wanderlust
 						</h4>
@@ -242,7 +242,7 @@ export default function Home() {
 				</div>
 
 				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 my-5 lg:my-10">
-					<div className="w-full lg:w-[50%] p-4" data-aos="fade-down">
+					<div className="w-full lg:w-[50%] p-2" data-aos="fade-down">
 						<h4 className="text-2xl font-semibold text-center">
 							E-commerce Store (DC Wears)
 						</h4>
@@ -278,16 +278,16 @@ export default function Home() {
 						</a>
 					</div>
 
-					<div className="w-full lg:w-[50%] p-4" data-aos="fade-up">
+					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={dcwears} />
 					</div>
 				</div>
 
 				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 my-5 lg:my-10">
-					<div className="w-full lg:w-[50%] p-4" data-aos="fade-up">
+					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={emporion} />
 					</div>
-					<div className="w-full lg:w-[50%] p-4" data-aos="fade-down">
+					<div className="w-full lg:w-[50%] p-2" data-aos="fade-down">
 						<h4 className="text-2xl font-semibold text-center">
 							Trading Exchange Patform
 						</h4>
@@ -330,7 +330,7 @@ export default function Home() {
 
 				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full my-5 lg:my-10">
 					<div
-						className="w-full lg:w-[50%] p-4 mx-0 lg:mx-5"
+						className="w-full lg:w-[50%] p-2 mx-0 lg:mx-5"
 						data-aos="fade-down"
 					>
 						<h4 className="text-2xl font-semibold text-center">
@@ -369,17 +369,17 @@ export default function Home() {
 						</a>
 					</div>
 
-					<div className="w-full lg:w-[50%] p-4" data-aos="fade-up">
+					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={revia} />
 					</div>
 				</div>
 
 				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full my-5 lg:my-10">
-					<div className="w-full lg:w-[50%] p-4" data-aos="fade-up">
+					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={anaco} />
 					</div>
 					<div
-						className="w-full lg:w-[50%] p-4 mx-0 lg:mx-5"
+						className="w-full lg:w-[50%] p-2 mx-0 lg:mx-5"
 						data-aos="fade-down"
 					>
 						<h4 className="text-2xl font-semibold text-center">
@@ -420,7 +420,7 @@ export default function Home() {
 
 				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full my-5 lg:my-10">
 					<div
-						className="w-full lg:w-[50%] p-4 mx-0 lg:mx-5"
+						className="w-full lg:w-[50%] p-2 mx-0 lg:mx-5"
 						data-aos="fade-down"
 					>
 						<h4 className="text-2xl font-semibold text-center">
@@ -461,7 +461,7 @@ export default function Home() {
 						</a>
 					</div>
 
-					<div className="w-full lg:w-[50%] p-4" data-aos="fade-up">
+					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
 						<Slider pictures={clipifai} />
 					</div>
 				</div>
