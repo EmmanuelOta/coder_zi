@@ -7,6 +7,42 @@ export const metadata = {
 };
 
 export default function Home() {
+	//slider images for synopsi
+	const synopsi = [
+		"synopsi-hero-light.png",
+		"synopsi-hero-dark.png",
+		"synopsi-benefits-light.png",
+		"synopsi-benefits-dark.png",
+		"synopsi-steps-light.png",
+		"synopsi-steps-dark.png",
+		"synopsi-faq-light.png",
+		"synopsi-faq-dark.png",
+		"synopsi-dashboard.png",
+		"synopsi-history.png",
+		"synopsi-summarize.png",
+		"synopsi-account.png",
+		"synopsi-setting.png",
+	];
+
+	//slider images for clipifai
+	const clipifai = [
+		"clipifai-hero.png",
+		"clipifai-login.png",
+		"clipifai-convert.png",
+		"clipifai-tools.png",
+		"clipifai-upload.png",
+		"clipifai-image-convert.png",
+		"clipifai-image-converted.png",
+	];
+
+	//slider images for wordify
+	const wordify = [
+		"wordify-upload-section.png",
+		"wordify-author-section.png",
+		"wordify-files-section.png",
+		"wordify-download-file-section.png",
+	];
+
 	//slider images for wanderlust
 	const wanderlust = [
 		"wanderlust-home.png",
@@ -38,6 +74,7 @@ export default function Home() {
 		"emporion-withdraw.png",
 	];
 
+	//slider images for revia
 	const revia = [
 		"revia-hero.png",
 		"revia-benefits.png",
@@ -46,22 +83,13 @@ export default function Home() {
 		"revia-faq.png",
 	];
 
+	//slider images for anaco
 	const anaco = [
 		"anaco-hero.png",
 		"anaco-benefits.png",
 		"anaco-steps.png",
 		"anaco-faq.png",
 		"anaco-contact.png",
-	];
-
-	const clipifai = [
-		"clipifai-hero.png",
-		"clipifai-login.png",
-		"clipifai-convert.png",
-		"clipifai-tools.png",
-		"clipifai-upload.png",
-		"clipifai-image-convert.png",
-		"clipifai-image-converted.png",
 	];
 
 	//skills
@@ -157,14 +185,36 @@ export default function Home() {
 					data-aos="fade-up"
 				>
 					<p className="p-2">
-						I&apos;m an aspiring founder developing my first SaaS
-						project,
+						I&apos;m an aspiring founder, currently working on two
+						SaaS projects,
 						<a
 							href="https://clipifai.vercel.app"
 							target="_blank"
 							className="inline-flex items-center font-semibold mx-1 hover:underline"
 						>
 							Clipifai
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								strokeWidth={1.5}
+								stroke="currentColor"
+								className="size-3 ml-1"
+							>
+								<path
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+								/>
+							</svg>
+						</a>{" "}
+						and
+						<a
+							href="https://synopsi.vercel.app"
+							target="_blank"
+							className="inline-flex items-center font-semibold mx-1 hover:underline"
+						>
+							Synopsi
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								fill="none"
@@ -197,6 +247,135 @@ export default function Home() {
 				<h3 className="p-1 text-3xl lg:text-4xl font-semibold my-7 text-center text-zinc-800 dark:text-white">
 					My Popular Projects
 				</h3>
+
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7 lg:space-x-6">
+					<div className="w-full lg:w-[50%] p-2" data-aos="fade-down">
+						<Slider pictures={synopsi} />
+					</div>
+					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
+						<h4 className="text-2xl font-semibold text-center">
+							Synopsi (SaaS)
+						</h4>
+						<p className="p-2 font-medium text-center lg:text-left">
+							Synopsi is an AI-powered tool designed to save you
+							time by summarizing YouTube videos with precision
+							and speed. Simply provide a YouTube video URL, and
+							Synopsi will generate a detailed summary of the
+							content, no matter how long the video is. This
+							allows you to grasp the key insights without
+							watching the entire video. For added convenience,
+							you can download these summaries as PDF files for
+							later reference. Experience fast, accurate insights
+							with Synopsi.
+						</p>
+						<a
+							target="_blank"
+							href="https://synopsi.vercel.app"
+							className="mx-1 inline-flex items-center justify-center lg:justify-start w-full font-semibold p-2 text-center lg:text-left"
+						>
+							Synopsi
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								strokeWidth={1.5}
+								stroke="currentColor"
+								className="size-3 mx-1"
+							>
+								<path
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+								/>
+							</svg>
+						</a>
+					</div>
+				</div>
+
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7 lg:space-x-6">
+					<div className="w-full lg:w-[50%] p-2" data-aos="fade-down">
+						<h4 className="text-2xl font-semibold text-center">
+							Clipifai (SaaS)
+						</h4>
+						<p className="p-2 font-medium text-center lg:text-left">
+							Clipifai is an AI-powered SaaS platform that
+							transforms documents (.doc, .docx, .pdf, .txt) into
+							human-sounding audiobooks, making content more
+							accessible and convenient. Alongside this, Clipifai
+							offers free tools for document manipulation, such as
+							converting images to PDFs, extracting text from
+							PDFs, and more. Built with Next.js, Tailwind CSS,
+							Firebase, and Express.js, this project showcases my
+							ability to build powerful, user-friendly platforms
+							with seamless functionality and a clean interface.
+						</p>
+						<a
+							target="_blank"
+							href="https://clipifai.vercel.app"
+							className="mx-1 inline-flex items-center justify-center lg:justify-start w-full font-semibold p-2 text-center lg:text-left"
+						>
+							Clipifai
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								strokeWidth={1.5}
+								stroke="currentColor"
+								className="size-3 mx-1"
+							>
+								<path
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+								/>
+							</svg>
+						</a>
+					</div>
+
+					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
+						<Slider pictures={clipifai} />
+					</div>
+				</div>
+
+				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7 lg:space-x-6">
+					<div className="w-full lg:w-[50%] p-2" data-aos="fade-down">
+						<Slider pictures={wordify} />
+					</div>
+					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
+						<h4 className="text-2xl font-semibold text-center">
+							Wordify (MVP)
+						</h4>
+						<p className="p-2 font-medium text-center lg:text-left">
+							Inspired by my fellow Computer Science undergrad
+							coursemates who are fond of taking pictures of notes
+							from fellow coursemates or the board, I built an
+							image extraction tool which extracts the text from
+							the images using OCR and converts them to
+							downloadable PDF files.
+						</p>
+						<a
+							target="_blank"
+							href="https://wordifyimage.vercel.app"
+							className="mx-1 inline-flex items-center justify-center lg:justify-start w-full font-semibold p-2 text-center lg:text-left"
+						>
+							Wordify
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								strokeWidth={1.5}
+								stroke="currentColor"
+								className="size-3 mx-1"
+							>
+								<path
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+								/>
+							</svg>
+						</a>
+					</div>
+				</div>
 
 				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7 lg:space-x-6">
 					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
@@ -411,51 +590,6 @@ export default function Home() {
 						</a>
 					</div>
 				</div>
-
-				<div className="flex flex-col lg:flex-row items-center justify-center max-w-full p-4 lg:p-7 lg:space-x-6">
-					<div className="w-full lg:w-[50%] p-2" data-aos="fade-down">
-						<h4 className="text-2xl font-semibold text-center">
-							Clipifai - Document to Audiobook Converter (SaaS)
-						</h4>
-						<p className="p-2 font-medium text-center lg:text-left">
-							Clipifai is an AI-powered SaaS platform that
-							transforms documents (.doc, .docx, .pdf, .txt) into
-							human-sounding audiobooks, making content more
-							accessible and convenient. Alongside this, Clipifai
-							offers free tools for document manipulation, such as
-							converting images to PDFs, extracting text from
-							PDFs, and more. Built with Next.js, Tailwind CSS,
-							Firebase, and Express.js, this project showcases my
-							ability to build powerful, user-friendly platforms
-							with seamless functionality and a clean interface.
-						</p>
-						<a
-							target="_blank"
-							href="https://clipifai.vercel.app"
-							className="mx-1 inline-flex items-center justify-center lg:justify-start w-full font-semibold p-2 text-center lg:text-left"
-						>
-							Clipifai
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								strokeWidth={1.5}
-								stroke="currentColor"
-								className="size-3 mx-1"
-							>
-								<path
-									strokeLinecap="round"
-									strokeLinejoin="round"
-									d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-								/>
-							</svg>
-						</a>
-					</div>
-
-					<div className="w-full lg:w-[50%] p-2" data-aos="fade-up">
-						<Slider pictures={clipifai} />
-					</div>
-				</div>
 			</section>
 
 			<section
@@ -477,7 +611,7 @@ export default function Home() {
 					{skills.map((skill, index) => (
 						<p
 							key={index}
-							className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-300 hover:bg-zinc-900 dark:hover:bg-zinc-100 dark:hover:text-zinc-800 hover:border hover:border-slate-300 mx-3 my-3"
+							className="rounded-lg text-lg text-sm md:text-base font-medium p-2 bg-zinc-800 text-white border border-slate-300 hover:bg-zinc-900 dark:hover:bg-zinc-100 dark:hover:text-zinc-800 dark:hover:font-semibold hover:border hover:border-slate-300 mx-3 my-3"
 							data-aos="fade-left"
 							data-aos-delay={1000 + (index + 1) * 100}
 						>

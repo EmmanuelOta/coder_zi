@@ -22,7 +22,7 @@ export default function Slider({ pictures }) {
 				loop={true}
 				spaceBetween={0}
 				slidesPerView={1}
-				className="w-full h-max rounded-lg green-swiper"
+				className="w-full h-max rounded-lg gray-swiper"
 			>
 				{pictures.map((picture, index) => (
 					<SwiperSlide key={index} className="w-full h-full">
@@ -40,28 +40,28 @@ export default function Slider({ pictures }) {
 				))}
 			</Swiper>
 			<style jsx global>{`
-				.green-swiper .swiper-button-next,
-				.green-swiper .swiper-button-prev {
+				.gray-swiper .swiper-button-next,
+				.gray-swiper .swiper-button-prev {
 					color: black;
 				}
 
-				.green-swiper .swiper-pagination-bullet {
+				.gray-swiper .swiper-pagination-bullet {
 					background: black;
 					opacity: 0.5;
 				}
 
-				.green-swiper .swiper-pagination-bullet-active {
+				.gray-swiper .swiper-pagination-bullet-active {
 					opacity: 1;
 				}
 
-				.green-swiper .swiper-button-next:after,
-				.green-swiper .swiper-button-prev:after {
+				.gray-swiper .swiper-button-next:after,
+				.gray-swiper .swiper-button-prev:after {
 					font-size: 36px;
 				}
 
-				.green-swiper .swiper-button-next:hover,
-				.green-swiper .swiper-button-prev:hover {
-					color: #15803d;
+				.gray-swiper .swiper-button-next:hover,
+				.gray-swiper .swiper-button-prev:hover {
+					color: #a1a1aa;
 				}
 			`}</style>
 		</>
