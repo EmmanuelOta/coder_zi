@@ -10,7 +10,7 @@ export default function ThemeToggler() {
 	return (
 		<button
 			onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-			className="p-2 px-3 rounded-full hover:bg-zinc-200 dark:hover:bg-zinc-700"
+			className="p-2 px-3 rounded-full hover:bg-zinc-300 dark:hover:bg-zinc-900"
 		>
 			{theme === "dark" ? (
 				<Sun className="h-5 w-5" />

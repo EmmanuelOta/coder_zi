@@ -50,12 +50,12 @@ export default function Navbar() {
 		>
 			<div className="flex items-center justify-between p-2 lg:p-3">
 				<div className={`text-2xl lg:text-3xl ${fugaz_one.className}`}>
-					<Link href={"#home"} className="mx-4">
+					<Link href={"/"} className="mx-4">
 						coder_zi
 					</Link>
 				</div>
 				<div className="hidden lg:flex items-center justify-center">
-					<Link href={"#home"} className="mx-3">
+					<Link href={"/"} className="mx-3">
 						Home
 					</Link>
 					<Link href={"#about"} className="mx-3">
@@ -183,11 +183,9 @@ export default function Navbar() {
 					<a
 						className="inline-flex items-center justify-center font-semibold mx-4 bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-800 p-3 rounded-lg text-sm [&>*:last-child]:hover:translate-x-1 [&>*:last-child]:ease-in-out [&>*:last-child]:duration-200"
 						target="_blank"
-						href={
-							"https://docs.google.com/document/d/1_7M8XB0GCeD81eHLFowSKHBbLnJCZrditI-6yB9FKUE/edit?usp=sharing"
-						}
+						href="https://instagram.com/coder_zi"
 					>
-						View Resume
+						Send me a message
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
