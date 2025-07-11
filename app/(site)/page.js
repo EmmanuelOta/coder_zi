@@ -151,7 +151,7 @@ export default function Home() {
 						user experiences.
 					</p>
 					<div className="flex flex-col sm:flex-row gap-4">
-            <Link className="px-8 py-4 bg-zinc-900 dark:bg-zinc-100 text-zinc-50 dark:text-zinc-900 rounded-full font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300" href={"#projects"}>
+            <Link className="px-8 py-4 bg-zinc-900 dark:bg-zinc-100 text-zinc-50 dark:text-zinc-900 rounded-full border font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105 hover:bg-inherit hover:text-zinc-800 hover:border-zinc-600 dark:hover:bg-inherit hover:dark:text-white transition-all duration-300" href={"#projects"}>
               View My Work
             </Link>
             <a className="px-8 py-4 bg-transparent border-2 border-zinc-900 dark:border-zinc-100 text-zinc-900 dark:text-zinc-100 rounded-full font-semibold text-lg hover:bg-zinc-900 hover:text-zinc-50 dark:hover:bg-zinc-100 dark:hover:text-zinc-900 transition-all duration-300" href={"https://instagram.com/coder_zi"} target="_blank">
