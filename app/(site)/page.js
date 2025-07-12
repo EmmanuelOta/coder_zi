@@ -146,7 +146,7 @@ export default function Home() {
 						Software Developer ⚜.
 					</h1>
 					<p className="text-lg md:text-xl text-zinc-600 dark:text-zinc-300 text-center md:text-left max-w-xl">
-						I help businesses and brands consolidate their online reputation by building websites that don't just look and feel aesthetically pleasing, but also speaks to their customers/clients in a way that makes them feel heard.
+						I help businesses and brands consolidate their online reputation by building websites that don&apos;t just look and feel aesthetically pleasing, but also speak to their customers/clients in a way that makes them feel heard.
 					</p>
 					<div className="flex flex-col sm:flex-row gap-4">
             <Link className="px-8 py-4 bg-zinc-900 dark:bg-zinc-100 text-zinc-50 dark:text-zinc-900 rounded-full border font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105 hover:bg-inherit hover:text-zinc-800 hover:border-zinc-600 dark:hover:bg-inherit hover:dark:text-white transition-all duration-300" href={"#projects"}>
@@ -184,7 +184,7 @@ export default function Home() {
             data-aos-duration="800"
             data-aos-delay="200"
           >
-            I enjoy solving riddles and puzzles because they engage my mind, which is one fo the reasons I love coding. It&apos;s a fun way to challenge my mind.
+            I enjoy solving riddles and puzzles because they engage my mind, which is one of the reasons I love coding. It&apos;s a fun way to challenge my mind.
           </div>
           <div
             className="bg-slate-50 rounded-3xl shadow-lg border border-slate-200 dark:border-slate-700 p-8 text-lg font-medium text-slate-700 hover:shadow-xl transition-shadow duration-300"
@@ -192,7 +192,7 @@ export default function Home() {
             data-aos-duration="800"
             data-aos-delay="300"
           >
-            In my free time, I am most likely seeing a fantasy/sci-fi movie, or playing football. Other times I&apos;d be probably be at the piano or drumming.
+            In my free time, I am most likely seeing a fantasy/sci-fi movie, or playing football. Other times I&apos;d probably be at the piano or drumming.
           </div>
         </div>
 
