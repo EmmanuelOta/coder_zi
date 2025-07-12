@@ -158,7 +158,7 @@ export default function Navbar() {
 								className="inline-flex items-center justify-center mt-6 dark:text-white"
 								onClick={() => setShowMenu(false)}
 							>
-								View Resume
+								Send me a message
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									fill="none"
