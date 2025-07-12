@@ -192,7 +192,7 @@ export default function Home() {
             data-aos-duration="800"
             data-aos-delay="300"
           >
-            In my free time, I am most likely seeing a fantasy/sci-fi movie, or playing football. Other times I'd be probably be at the piano or drumming.
+            In my free time, I am most likely seeing a fantasy/sci-fi movie, or playing football. Other times I&apos;d be probably be at the piano or drumming.
           </div>
         </div>
 
