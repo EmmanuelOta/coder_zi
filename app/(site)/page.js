@@ -117,7 +117,7 @@ export default function Home() {
 	return (
 		<>
 			{/* HERO SECTION */}
-			<section className="relative flex flex-col md:flex-row items-center justify-center min-h-screen px-6 py-12 bg-gradient-to-br from-white via-green-50 to-zinc-100 dark:from-zinc-900 dark:via-zinc-950 dark:to-zinc-900">
+			<section className="relative flex flex-col md:flex-row items-center justify-center min-h-[90vh] px-6 py-12 bg-gradient-to-br from-white via-green-50 to-zinc-100 dark:from-zinc-900 dark:via-zinc-950 dark:to-zinc-900">
 				<div className="absolute inset-0 pointer-events-none">
 					<div className="absolute -top-16 -left-16 w-72 h-72 bg-green-200 dark:bg-green-900 rounded-full opacity-20 blur-3xl" />
 					<div className="absolute bottom-0 right-0 w-40 h-40 bg-green-400 dark:bg-green-700 rounded-full opacity-10 blur-2xl" />
@@ -146,9 +146,7 @@ export default function Home() {
 						Software Developer ⚜.
 					</h1>
 					<p className="text-lg md:text-xl text-zinc-600 dark:text-zinc-300 text-center md:text-left max-w-xl">
-						I build beautiful, high-converting web apps and landing
-						pages with a passion for design, code, and meaningful
-						user experiences.
+						I help businesses and brands consolidate their online reputation by building websites that don't just look and feel aesthetically pleasing, but also speaks to their customers/clients in a way that makes them feel heard.
 					</p>
 					<div className="flex flex-col sm:flex-row gap-4">
             <Link className="px-8 py-4 bg-zinc-900 dark:bg-zinc-100 text-zinc-50 dark:text-zinc-900 rounded-full border font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105 hover:bg-inherit hover:text-zinc-800 hover:border-zinc-600 dark:hover:bg-inherit hover:dark:text-white transition-all duration-300" href={"#projects"}>
@@ -178,9 +176,7 @@ export default function Home() {
             data-aos-duration="800"
             data-aos-delay="100"
           >
-            I&apos;m a naturally curious person who loves exploring nature and the universe. I&apos;m fascinated by how
-            both physical and spiritual laws work, and I often think about the deeper meaning of life and how we can
-            live happily while achieving our purpose.
+            I&apos;m a naturally curious person, and I enjoy learning about nature and the universe. I&apos;m fascinated by the nature of existence, and I often think about the deeper meaning of life and how to make the most out of it.
           </div>
           <div
             className="bg-slate-50 rounded-3xl shadow-lg border border-slate-200 dark:border-slate-700 p-8 text-lg font-medium text-slate-700 hover:shadow-xl transition-shadow duration-300"
@@ -188,8 +184,7 @@ export default function Home() {
             data-aos-duration="800"
             data-aos-delay="200"
           >
-            I enjoy solving riddles and puzzles because they make me think better, and that&apos;s one of the reasons I
-            got into coding, it&apos;s a fun way to challenge my mind.
+            I enjoy solving riddles and puzzles because they engage my mind, which is one fo the reasons I love coding. It&apos;s a fun way to challenge my mind.
           </div>
           <div
             className="bg-slate-50 rounded-3xl shadow-lg border border-slate-200 dark:border-slate-700 p-8 text-lg font-medium text-slate-700 hover:shadow-xl transition-shadow duration-300"
@@ -197,8 +192,7 @@ export default function Home() {
             data-aos-duration="800"
             data-aos-delay="300"
           >
-            In my free time, I like playing the piano, drums, or guitar. I also enjoy watching fantasy and sci-fi
-            movies, and when I&apos;m not doing that, I love playing football.
+            In my free time, I am most likely seeing a fantasy/sci-fi movie, or playing football. Other times I'd be probably be at the piano or drumming.
           </div>
         </div>
 
@@ -225,7 +219,7 @@ export default function Home() {
           <a
             href="https://clipifai.vercel.app"
             target="_blank"
-            className="inline-flex items-center font-semibold mx-1 hover:underline text-slate-900 dark:text-slate-100 underline"
+            className="inline-flex items-center font-semibold mx-1 hover:underline text-slate-900 underline"
             rel="noreferrer"
           >
             Clipifai
@@ -234,14 +228,14 @@ export default function Home() {
           <a
             href="https://synopsi.vercel.app"
             target="_blank"
-            className="inline-flex items-center font-semibold mx-1 hover:underline text-slate-900 dark:text-slate-100 underline"
+            className="inline-flex items-center font-semibold mx-1 hover:underline text-slate-900 underline"
             rel="noreferrer"
           >
             Synopsi
           </a>
-          . I have a passion for creating stunning user interfaces that deliver memorable experiences to users for web
-          applications. I also design eye-catching landing pages with compelling copy that boost conversion rates. My
-          work consistently turns leads into loyal users and customers.
+          . Not only do I love creating beautiful user interfaces that feel sleek to the users for web
+          applications, I also design eye-catching landing pages that speaks to the customers from their perspective which boost conversion rates, and
+          works consistently in turning leads to loyal users and customers.
         </div>
       </section>
 
