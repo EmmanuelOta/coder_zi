@@ -152,9 +152,7 @@ export default function Navbar() {
 							</Link>
 							<a
 								target="_blank"
-								href={
-									"https://docs.google.com/document/d/1_7M8XB0GCeD81eHLFowSKHBbLnJCZrditI-6yB9FKUE/edit?usp=sharing"
-								}
+								href="https://instagram.com/coder_zi"
 								className="inline-flex items-center justify-center mt-6 dark:text-white"
 								onClick={() => setShowMenu(false)}
 							>
