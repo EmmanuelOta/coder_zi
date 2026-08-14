@@ -81,11 +81,9 @@ export const metadata = {
     description,
     type: "website",
     url: "/",
-    images: ["/og-home.png"],
   },
   twitter: {
     card: "summary_large_image",
-    image: "/og-home.png",
   },
   alternates: {
     canonical: "/",
