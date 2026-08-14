@@ -13,7 +13,7 @@ export const metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL || "https://coderzi.vercel.app"
   ),
-  title: "Emmanuel — Software Engineer & Product Builder | coder_zi",
+  title: "Emmanuel — Software Engineer & Product Engineer | coder_zi",
   description:
     "Emmanuel (coder_zi) designs and builds websites, web apps, mobile apps and custom software end to end.",
   authors: [{ name: "Emmanuel" }],

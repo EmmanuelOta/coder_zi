@@ -22,7 +22,7 @@ import { Reveal } from "@/components/reveal";
 import { ContactForm } from "@/components/contact-form";
 import { projects } from "@/data/projects";
 
-const title = "Emmanuel — Software Engineer & Product Builder | coder_zi";
+const title = "Emmanuel — Software Engineer & Product Engineer | coder_zi";
 
 const description =
   "I design and build websites, web apps, mobile apps and custom software — from first idea to shipped product. Selected work: Clipifai, Ascend, Hermes Events and more.";

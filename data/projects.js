@@ -5,6 +5,7 @@ const ascendShot = "/images/ascend.jpg";
 const hermesShot = "/images/hermes-events.jpg";
 const firstChoiceShot = "/images/first-choice-studio.jpg";
 const jkShot = "/images/jk-shotit-photography.jpg";
+const zootrek = "/images/zootrek.png";
 
 export const projects = [
   {
@@ -206,7 +207,7 @@ export const projects = [
     scope: "Product design · Frontend engineering",
     platform: "Web",
     stack: ["React", "TypeScript", "Tailwind CSS"],
-    image: null,
+    image: zootrek,
     imageAlt: "Zootrek project screenshot placeholder",
     sections: {
       problem:
