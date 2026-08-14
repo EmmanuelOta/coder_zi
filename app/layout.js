@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://coder-zi.vercel.app"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://coderzi.vercel.app"
   ),
   title: "Emmanuel — Software Engineer & Product Builder | coder_zi",
   description:

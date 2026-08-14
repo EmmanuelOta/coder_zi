@@ -93,11 +93,11 @@ const steps = [
 const stackGroups = [
   {
     label: "Frontend",
-    items: ["React", "TypeScript", "Tailwind CSS", "Motion"],
+    items: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
   },
   {
     label: "Backend",
-    items: ["Node.js", "Postgres", "REST APIs", "Auth"],
+    items: ["Next.js serverless", "Supabase", "Firebase", "REST APIs",],
   },
   {
     label: "Mobile",

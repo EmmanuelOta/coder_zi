@@ -20,7 +20,7 @@ export const socialLinks = [
   {
     label: "LinkedIn",
     handle: "in/coderzi",
-    href: "https://www.linkedin.com/in/coderzi",
+    href: "https://www.linkedin.com/in/coder-zi",
     icon: Linkedin,
     note: "Work history & updates",
   },
