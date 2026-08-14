@@ -67,7 +67,7 @@ export function ContactForm() {
         <h3 className="text-lg font-semibold">Got it — details received</h3>
 
         <p className="text-sm leading-relaxed text-muted-foreground">
-          Email delivery isn't wired up on this site yet, so to make sure it
+          Email delivery isn&apos;t wired up on this site yet, so to make sure it
           reaches me directly, send the same note to{" "}
           <a
             className="text-primary underline"

@@ -75,7 +75,7 @@ export default function Insights() {
 
           <p className="mt-5 text-base leading-relaxed text-muted-foreground">
             Short, practical pieces on product engineering and design decisions — written from
-            actual projects. New writing is published here as it's finished.
+            actual projects. New writing is published here as it&apos;s finished.
           </p>
         </div>
       </section>

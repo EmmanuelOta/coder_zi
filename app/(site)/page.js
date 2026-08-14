@@ -109,7 +109,7 @@ export default function Home() {
               </h1>
 
               <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg lg:mx-0">
-                I'm Emmanuel — I design and engineer websites, web apps, mobile
+                I&apos;m Emmanuel — I design and engineer websites, web apps, mobile
                 apps and custom software end to end. Fewer handoffs, one person
                 accountable for how it looks and how it works.
               </p>
@@ -156,7 +156,7 @@ export default function Home() {
       <Section id="work">
         <SectionHead
           eyebrow="Selected work"
-          title="Products and sites I've shipped"
+          title="Products and sites I&apos;ve shipped"
           copy="Six projects across SaaS products, analytics tools and premium brand websites."
           action={
             <CTA to="/work" variant="quiet">
@@ -310,7 +310,7 @@ export default function Home() {
             </h2>
 
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground sm:text-base">
-              I've spent my time building products for founders and businesses
+              I&apos;ve spent my time building products for founders and businesses
               that needed one person to own the whole thing: the interface, the
               architecture, the deploy. I care about clarity, honest timelines
               and software that still makes sense six months later.
@@ -336,12 +336,12 @@ export default function Home() {
             <Eyebrow>Contact</Eyebrow>
 
             <h2 className="mt-4 text-3xl font-semibold sm:text-4xl">
-              Let's talk about your build
+              Let&apos;s talk about your build
             </h2>
 
             <p className="mt-4 max-w-md text-sm leading-relaxed text-muted-foreground sm:text-base">
-              Send a few details and I'll come back with an honest read: what
-              it takes, what I'd cut, and what I'd build first.
+              Send a few details and I&apos;ll come back with an honest read: what
+              it takes, what I&apos;d cut, and what I&apos;d build first.
             </p>
           </div>
 

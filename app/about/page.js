@@ -92,12 +92,12 @@ export default function About() {
             <Eyebrow>About</Eyebrow>
 
             <h1 className="mt-5 text-4xl font-semibold leading-[1.05] sm:text-5xl">
-              I'm Emmanuel. I design and build software people rely on.
+              I&apos;m Emmanuel. I design and build software people rely on.
             </h1>
 
             <p className="mt-5 text-base leading-relaxed text-muted-foreground">
               I work with founders and businesses who need one person accountable for the product:
-              how it's structured, how it looks, how it's engineered and how it goes live. I like
+              how it&apos;s structured, how it looks, how it&apos;s engineered and how it goes live. I like
               hard interfaces, clear data models and software that still reads well six months on.
             </p>
 

@@ -36,7 +36,7 @@ export default function Contact() {
             </h1>
 
             <p className="mx-auto mt-5 max-w-md text-base leading-relaxed text-muted-foreground lg:mx-0">
-              A few details are enough to start. I'll reply with how I'd approach it, what I'd build
+              A few details are enough to start. I&apos;ll reply with how I&apos;d approach it, what I&apos;d build
               first, and a realistic timeline.
             </p>
 
