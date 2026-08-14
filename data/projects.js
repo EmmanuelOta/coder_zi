@@ -211,15 +211,15 @@ export const projects = [
     imageAlt: "Zootrek project screenshot placeholder",
     sections: {
       problem:
-        "Travel and tour content is usually presented as a brochure: long pages that describe destinations but give no real way to explore them. The interesting part — comparing options and following curiosity — happens somewhere else entirely.",
+        "Moving an animal is not just a booking problem — it is a trust problem. Pet owners often have to coordinate long-distance transport across multiple modes, price brackets and service levels while trying to understand real costs, routes and risk. For families and frequent movers, this process is stressful, fragmented and difficult to compare. The problem is not just transport; it is making a complex logistical decision feel clear and manageable.",
       approach:
-        "I approached it as a product rather than a website: destinations and tours modelled as data, with browsing, filtering and detail views built on top so the experience can grow without a redesign.",
+        "I built Zootrek as a product experience rather than a brochure site. The core idea was to help users estimate, compare and choose the right travel option for their pet or animal without needing a separate back-and-forth with an operator. I modelled transport options, distance, service levels and pricing logic into a system that could be browsed and filtered like a real product.",
       design:
-        "Imagery-led cards with clear structure underneath, so exploration stays fast and the interface never gets in the way of the destination itself.",
+        "The interface is structured around clarity and decision-making: users can compare service routes, understand the trade-off between speed and cost, and see what they are paying for without getting lost in a wall of text. The design uses strong visual hierarchy, clear pricing blocks and a clean flow that keeps the experience reassuring and easy to trust.",
       engineering:
-        "A typed React frontend over a content model for destinations and tours, with routing and state shaped so that a view is always a readable, shareable URL.",
+        "I built the frontend as a data-driven experience with price calculation logic for road, air and mileage-based transport, service tiers like standard, premium and VIP, and dynamic calculations tied to distance and package selection. I also integrated a payment gateway flow so users could move from quote to checkout within the same product experience, rather than treating travel as a manual admin task.",
       outcome:
-        "The product experience is implemented. Live screenshots are pending a redeploy of the hosted build, so no product imagery is shown here yet.",
+        "The result was a functional product experience designed for high-frequency movers and pet owners who need flexibility and clarity. It combined transport comparison, pricing intelligence, booking logic and a payment system into one place, turning a stressful logistics problem into a smoother, more transparent decision-making journey.",
     },
   },
 ];
