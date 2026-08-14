@@ -219,7 +219,7 @@ export default function Home() {
             title="Professional services I offer"
             copy="Four engagements I take on most often — each designed, engineered and shipped end to end."
             action={
-              <CTA to="/what-i-build" variant="quiet">
+              <CTA to="/my-builds" variant="quiet">
                 How I work
               </CTA>
             }
