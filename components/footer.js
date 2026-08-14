@@ -51,7 +51,7 @@ export function Footer() {
               Work
             </Link>
 
-            <Link href="/what-i-build" className="hover:text-foreground">
+            <Link href="/my-builds" className="hover:text-foreground">
               What I Build
             </Link>
 
