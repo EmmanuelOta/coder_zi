@@ -1,17 +1,34 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
+import { Nav } from "@/components/nav";
+import { Footer } from "@/components/footer";
 
 import { ThemeProvider } from "next-themes";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-	title: "coder_zi -coder_zi's portfolio",
-	description:
-		"Front End developer with a philosophical mind. Perpetual state of evolution ⚜.",
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL || "https://coder-zi.vercel.app"
+  ),
+  title: "Emmanuel — Software Engineer & Product Builder | coder_zi",
+  description:
+    "Emmanuel (coder_zi) designs and builds websites, web apps, mobile apps and custom software end to end.",
+  authors: [{ name: "Emmanuel" }],
+  openGraph: {
+    siteName: "Emmanuel — coder_zi",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@coder_zi",
+  },
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -29,11 +46,13 @@ export default function RootLayout({ children }) {
 					defaultTheme="system"
 					enableSystem
 				>
-					<div className="min-h-screen bg-gradient-to-r from-slate-100 via-white to-slate-200 dark:bg-gradient-to-b dark:from-zinc-800 dark:to-zinc-900">
-						<Navbar />
-						{children}
-					</div>
-					<Footer />
+					<TooltipProvider>
+						<div className="min-h-dvh">
+							<Nav />
+							{children}
+						</div>
+						<Footer />
+					</TooltipProvider>
 				</ThemeProvider>
 			</body>
 		</html>
