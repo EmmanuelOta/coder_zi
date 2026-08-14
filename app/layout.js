@@ -20,6 +20,9 @@ export const metadata = {
   openGraph: {
     siteName: "Emmanuel — coder_zi",
     type: "website",
+    title: "Emmanuel — Software Engineer & Product Engineer | coder_zi",
+    description:
+      "Emmanuel (coder_zi) designs and builds websites, web apps, mobile apps and custom software end to end.",
     images: [
       {
         url: "/opengraph-image.png",
@@ -32,6 +35,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@coder_zi",
+    title: "Emmanuel — Software Engineer & Product Engineer | coder_zi",
+    description:
+      "Emmanuel (coder_zi) designs and builds websites, web apps, mobile apps and custom software end to end.",
     images: [
       {
         url: "/twitter-image.png",

@@ -81,9 +81,29 @@ export const metadata = {
     description,
     type: "website",
     url: "/",
+    siteName: "Emmanuel — coder_zi",
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Emmanuel — coder_zi",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
+    site: "@coder_zi",
+    title,
+    description,
+    images: [
+      {
+        url: "/twitter-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Emmanuel — coder_zi",
+      },
+    ],
   },
   alternates: {
     canonical: "/",
