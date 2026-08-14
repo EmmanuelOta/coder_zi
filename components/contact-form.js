@@ -71,9 +71,9 @@ export function ContactForm() {
           reaches me directly, send the same note to{" "}
           <a
             className="text-primary underline"
-            href="mailto:hello@coderzi.dev"
+            href="mailto:emmyraddo4@gmail.com"
           >
-            hello@coderzi.dev
+            emmyraddo4@gmail.com
           </a>
           .
         </p>

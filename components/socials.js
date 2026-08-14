@@ -12,8 +12,8 @@ import { cn } from "@/lib/utils";
 export const socialLinks = [
   {
     label: "Email",
-    handle: "hello@coderzi.dev",
-    href: "mailto:hello@coderzi.dev",
+    handle: "emmyraddo4@gmail.com",
+    href: "mailto:emmyraddo4@gmail.com",
     icon: Mail,
     note: "Fastest way to reach me",
   },
