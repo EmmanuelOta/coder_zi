@@ -1,9 +1,7 @@
-// components/ContactForm.js
 "use client";
 
 import { Check, Loader2 } from "lucide-react";
 import { useState } from "react";
-import { submitInquiry } from "@/lib/inquiry.actions";
 
 const projectTypes = [
   "Website",
@@ -33,16 +31,32 @@ export function ContactForm() {
     setState("sending");
     setError(null);
 
+    const payload = {
+      name: String(formData.get("name") ?? "").trim(),
+      email: String(formData.get("email") ?? "").trim(),
+      company: String(formData.get("company") ?? "").trim(),
+      projectType: String(formData.get("projectType") ?? "").trim(),
+      budget: String(formData.get("budget") ?? "").trim(),
+      timeline: String(formData.get("timeline") ?? "").trim(),
+      message: String(formData.get("message") ?? "").trim(),
+    };
+
     try {
-      await submitInquiry({
-        name: String(formData.get("name") ?? ""),
-        email: String(formData.get("email") ?? ""),
-        company: String(formData.get("company") ?? ""),
-        projectType: String(formData.get("projectType") ?? ""),
-        budget: String(formData.get("budget") ?? ""),
-        timeline: String(formData.get("timeline") ?? ""),
-        message: String(formData.get("message") ?? ""),
+      const response = await fetch("/api/inquiry", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
       });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(
+          data?.message || "Something went wrong. Please try again.",
+        );
+      }
 
       setState("sent");
       form.reset();
@@ -52,7 +66,7 @@ export function ContactForm() {
       setError(
         err instanceof Error && err.message.length < 160
           ? err.message
-          : "Something went wrong. Please email hello@coderzi.dev instead.",
+          : "Something went wrong. Please email emmyraddo4@gmail.com instead.",
       );
     }
   }
@@ -64,18 +78,11 @@ export function ContactForm() {
           <Check className="size-5" aria-hidden />
         </div>
 
-        <h3 className="text-lg font-semibold">Got it — details received</h3>
+        <h3 className="text-lg font-semibold">Inquiry received.</h3>
 
         <p className="text-sm leading-relaxed text-muted-foreground">
-          Email delivery isn&apos;t wired up on this site yet, so to make sure it
-          reaches me directly, send the same note to{" "}
-          <a
-            className="text-primary underline"
-            href="mailto:emmyraddo4@gmail.com"
-          >
-            emmyraddo4@gmail.com
-          </a>
-          .
+          Thanks for reaching out. I&apos;ve received your project details and
+          will get back to you with an honest read on scope and next steps.
         </p>
 
         <button
@@ -83,7 +90,7 @@ export function ContactForm() {
           onClick={() => setState("idle")}
           className="mx-auto mt-2 text-sm text-muted-foreground underline hover:text-foreground"
         >
-          Send another
+          Send another inquiry
         </button>
       </div>
     );
@@ -212,9 +219,9 @@ export function ContactForm() {
         Prefer email? Write to{" "}
         <a
           className="text-primary underline"
-          href="mailto:hello@coderzi.dev"
+          href="mailto:emmyraddo4@gmail.com"
         >
-          hello@coderzi.dev
+          emmyraddo4@gmail.com
         </a>
         .
       </p>
