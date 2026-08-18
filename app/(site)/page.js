@@ -22,7 +22,7 @@ import { Reveal } from "@/components/reveal";
 import { ContactForm } from "@/components/contact-form";
 import { projects } from "@/data/projects";
 
-const title = "coder_zi - (Emmanuel Onwukwe) — Software Engineer & Product Engineer | Founder Clipifai | coder_zi's portfolio | coder_zi";
+const title = "Emmanuel — Software Engineer & Product Engineer | coder_zi  | Founder Clipifai";
 
 const description =
   "I design and build websites, web apps, mobile apps and custom software for startups and businesses — from first idea to shipped product. I've worked on quite the number of enterprise grade level software and can help your startup/business hit their goals in record time.";
