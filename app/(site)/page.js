@@ -208,7 +208,7 @@ export default function Home() {
         <SectionHead
           eyebrow="Selected work"
           title="Products and sites I&apos;ve shipped"
-          copy="Six projects across SaaS products, analytics tools and premium brand websites."
+          copy="Some projects I've worked on across SaaS products, analytics tools and premium brand websites."
           action={
             <CTA to="/work" variant="quiet">
               All work
