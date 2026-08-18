@@ -64,12 +64,26 @@ const stack = [
   {
     icon: Boxes,
     label: "Product",
-    items: ["Design systems", "Prototyping", "Analytics"],
+    items: [
+      "Product strategy",
+      "Design Systems",
+      "UX flows",
+      "Roadmapping",
+      "Feature prioritization",
+      "Analytics & KPI",
+    ],
   },
   {
     icon: Sparkles,
     label: "AI",
-    items: ["LLM features", "Speech & audio", "Automation"],
+    items: [
+      "AI product strategy",
+      "Prompt engineering",
+      "Workflow automation",
+      "RAG + retrieval",
+      "Evaluation & iteration",
+      "Automation",
+    ],
   },
 ];
 
