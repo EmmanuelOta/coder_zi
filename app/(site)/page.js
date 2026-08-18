@@ -22,10 +22,10 @@ import { Reveal } from "@/components/reveal";
 import { ContactForm } from "@/components/contact-form";
 import { projects } from "@/data/projects";
 
-const title = "Emmanuel — Software Engineer & Product Engineer | coder_zi";
+const title = "coder_zi - (Emmanuel Onwukwe) — Software Engineer & Product Engineer | Founder Clipifai | coder_zi's portfolio | coder_zi";
 
 const description =
-  "I design and build websites, web apps, mobile apps and custom software — from first idea to shipped product. Selected work: Clipifai, Ascend, Hermes Events and more.";
+  "I design and build websites, web apps, mobile apps and custom software for startups and businesses — from first idea to shipped product. I've worked on quite the number of enterprise grade level software and can help your startup/business hit their goals in record time.";
 
 const services = [
   {
@@ -54,12 +54,12 @@ const stack = [
   {
     icon: Palette,
     label: "Interface",
-    items: ["React", "TypeScript", "Tailwind CSS", "Motion"],
+    items: ["Nextjs", "React", "React Native", "TypeScript", "Javascript", "Tailwind CSS"],
   },
   {
     icon: ServerCog,
     label: "Backend",
-    items: ["Node.js", "Postgres", "REST APIs", "Auth"],
+    items: ["Node.js", "ExpressJS", "Firebase", "Supabase", "REST APIs", "Auth"],
   },
   {
     icon: Boxes,
@@ -76,12 +76,22 @@ const stack = [
 export const metadata = {
   title,
   description,
+  keywords: [
+    "coder_zi",
+    "coderzi",
+    "coder-zi",
+    "coder zi",
+    "Coder Zi",
+    "clipifai founder",
+    "clipifai",
+    "Emmanuel Onwukwe",
+  ],
   openGraph: {
     title,
     description,
     type: "website",
     url: "/",
-    siteName: "Emmanuel — coder_zi",
+    siteName: "coder_zi — Emmanuel Onwukwe",
     images: [
       {
         url: "/opengraph-image.png",
